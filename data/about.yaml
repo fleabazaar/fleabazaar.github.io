@@ -1,0 +1,84 @@
+
+title: "ABOUT US"
+
+text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa."
+
+team:
+  1:
+    name: "Jenny Doe"
+    profile: "MARKETING" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: www.facebook.com
+    twitter: www.twitter.com
+    gplus: plus.google.com
+  2:
+    name: "Jenny Doe"
+    profile: "MARKETING" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: www.facebook.com
+    twitter: www.twitter.com
+    gplus: plus.google.com
+  3:
+    name: "Jenny Doe"
+    profile: "MARKETING" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: www.facebook.com
+    twitter: www.twitter.com
+    gplus: plus.google.com
+  4:
+    name: "Jenny Doe"
+    profile: "MARKETING" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: www.facebook.com
+    twitter: www.twitter.com
+    gplus: plus.google.com
+  5:
+    name: "Jenny Doe"
+    profile: "MARKETING" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: www.facebook.com
+    twitter: www.twitter.com
+    gplus: plus.google.com
+  6:
+    name: "Jenny Doe"
+    profile: "MARKETING" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: www.facebook.com
+    twitter: www.twitter.com
+    gplus: plus.google.com
+  7:
+    name: "Jenny Doe"
+    profile: "MARKETING" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: www.facebook.com
+    twitter: www.twitter.com
+    gplus: plus.google.com
+  8:
+    name: "Jenny Doe"
+    profile: "MARKETING" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: www.facebook.com
+    twitter: www.twitter.com
+    gplus: plus.google.com
+
+
+highlights:
+  1:
+    name: "Simplicity"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis."
+  2:
+    name: "Simplicity"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis."
+  3:
+    name: "Simplicity"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis."
+  4:
+    name: "Simplicity"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis."
+  5:
+    name: "Simplicity"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis."
+  6:
+    name: "Simplicity"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis."
+

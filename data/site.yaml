@@ -1,40 +1,7 @@
 
 title: NSVM & Associates
-tagline: Charted Accountants
 
 brand: "/images/nsvm/nsvm-final-01.png"
-
-carousels:
-  1:
-    image: /images/nsvm/main-03.jpg
-    caption: ""
-  2:
-    image: /images/nsvm/main-01.jpg
-    caption: ""
-  3:
-    image: /images/nsvm/main-02.jpg
-    caption: ""
-  4:
-    image: /images/nsvm/main-07.jpg
-    caption: ""
-  5:
-    image: /images/nsvm/main-08.jpg
-    caption: ""
-  
-  
-highlights:
-  1:
-    name: NSVM& Associates
-    detail: <ul><li>Premier Bangalore based Chartered Accountants Firm</li><li>Rich varied experience and expertise capable of handling whole gamut of Business services</li><li>Customers across Industries and Functions</li><li>Consulting</li><li>Corner stone of Integrity & Quality</li><li>Excellent infrastructure – equipped to render quality services</li></ul>
-  2:
-    name:  <a href="/services">Services</a>	
-    detail: <ul><li>Statutory Audit</li><li>Taxation</li><li>Company Law & Legal</li><li>Structuring Real Estate Proposals</li><li>Services to Start-Up Companies</li><li>Financial Services</li><li>Internal Audits/Systems & Procedures</li><li>Services to Banking Sector</li><li>Other Services – EXIM policy, service Tax, VAT etc</li></ul>
-    
-  3:
-    name: <a href="/forum">Forum</a>
-    detail: <ul><li>Professional forum & advice</li><li>Post your queries</li> <li>Receive expert onions</li> <li>Discuss with your peers and colleagues</li><li>Analyse latest developments</li><li>Debate complex issues</li><li>Explore interpretations and precedents</li></ul>
-
-description: N S V M & Associates is a chartered accountant’s firm based in Bengaluru having a pool of professionals possessing varied skill sets geared to meet the complexities and challenges of modern day business.  The talent pool enables us to offer professional services in areas of Statutory Audit, Direct and Indirect Taxation, Internal Audit- systems, procedures and operations, corporate law matters, Due Diligence studies, Business Valuations and Investment structuring, FEMA including Entry strategies, EXIM Policy related services, Business plans, Debt structuring & syndication, among others.
 
 copyright: NSVM & Associates © 2014
 

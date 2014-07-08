@@ -1,63 +1,43 @@
 
-
-<section id="home" class="full-screen"><!-- full-screen or half-screen (550px height) -->
+<section id="home" class="full-screen">
   
   <div id="slider">
     
-    <!-- slider navigation -->
+    <% if(data.home.slider.keys.size > 1) %>
     <nav class="slides-navigation">
       <a class="prev" href="#"></a>
       <a class="next" href="#"></a>
     </nav>
+    <% end %>
     
     <ul class="slides-container">
       
-      <!-- Item 1 -->
+      <% for slide_id in data.home.slider.keys %>
+      <%
+	 text_main = data.home.slider[slide_id].text_main
+	 text_sec = data.home.slider[slide_id].text_sex
+	 image = data.home.slider[slide_id].image
+      %>
+
       <li>
+
 	<div class="image-caption">
-	  <hr /><hr />
+	  <hr/><hr/>
 	  <div class="inner">
-	    <h2 class="bigtext strtoupper nomargin">Let's work together</h2>
-	    <p>WE ARE <strong>ISIS ONE</strong> AGENCY</p>
+	    <h2 class="bigtext strtoupper nomargin"><%= text_main %></h2>
+	    <p><%= text_sec %></p>
 	  </div>
-	  <hr /><hr />
+	  <hr/><hr/>
 	</div>
-	
+
 	<span class="overlay"></span>
-	<div style="background-image: url('assets/images/preview/slider/background.jpg');" class="fullscreen-img"></div>
+
+	<div style="background-image: url('<%= image %>');" class="fullscreen-img"></div>
+
       </li>
-      
-      <!-- Item 2 -->
-      <li>
-	<div class="image-caption">
-	  <hr /><hr />
-	  <div class="inner">
-	    <h1 class="bigtext strtoupper nomargin">ONE PAGE DESIGN</h1>
-	    <p>THE TEMPLATE IS EASY TO SET UP</p>
-	  </div>
-	  <hr /><hr />
-	</div>
-	
-	<!--<span class="overlay"></span>-->
-	<div style="background-image: url('assets/images/preview/slider/vision.jpg');" class="fullscreen-img"></div>
-      </li>
-      
-      
-      <!-- Item 3 -->
-      <li>
-	<div class="image-caption">
-	  <hr /><hr />
-	  <div class="inner">
-	    <h2 class="strtoupper nomargin">RESPONSIVE LAYOUT</h2>
-	  </div>
-	  <hr /><hr />
-	</div>
-	
-	<!--<span class="overlay"></span>-->
-	<div style="background-image: url('assets/images/preview/slider/1.jpg');" class="fullscreen-img"></div>
-      </li>
-      
-      
+
+      <% end %>
+
     </ul>
     
   </div>

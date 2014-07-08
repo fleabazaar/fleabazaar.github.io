@@ -1,0 +1,15 @@
+
+slider:
+  1:
+    image: assets/images/preview/slider/background.jpg
+    text_main: "Let's work together"
+    text_sec: "WE ARE <strong>ISIS ONE</strong> AGENCY"
+  2:
+    image: assets/images/preview/slider/background.jpg
+    text_main: "ONE PAGE DESIGN"
+    text_sec: "WE ARE <strong>THE TEMPLATE IS EASY TO SET UP</strong> AGENCY"
+  3:
+    image: assets/images/preview/slider/1.jpg
+    text_main: "RESPONSIVE LAYOUT"
+    text_sec: ""
+     
