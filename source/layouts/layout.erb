@@ -1,125 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<html lang="en-US">
 
-    <title><%= data.site.title %></title>
-
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <%= stylesheet_link_tag "modern-business" %>
-
-    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- IE8 support for HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header" style="margin-top:-17px;">
-        <a class="navbar-brand" href="/">
-	  <img src="<%= data.site.brand %>" alt="<%= data.site.title %>" />
-	</a>
-      </div>
-
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
-	<span class="glyphicon glyphicon-play" style="color:#fff"></span>
-      </button>
-
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
-          <li><a href="/services"><i class="fa fa-gear"></i> Services</a></li>
-          <!-- <li><a href="/career"><i class="fa fa-thumbs-up"></i> Career</a></li> -->
-	  <li><a href="/about"><i class="fa fa-group"></i> About</a></li>
-	  <li><a href="/contact"><i class="fa fa-envelope"></i> Contact</a></li>
-	</ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-  </nav>
-
-  <br>
-
-  <% if(data.page.title != 'Home') %>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-	<h1 class="page-header"><%= data.page.title %>
-	  <% if() %>
-          &nbsp;<small><%= data.page.tagline %></small>
-	  <% end %>
-	</h1>
-	<ol class="breadcrumb">
-          <li><a href="/">Home</a></li>
-          <li class="active"><%= data.page.title %></li>
-	</ol>
-      </div>
-    </div>
+  <head>
+  
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     
+    <title>IsisOne - Personal or Agency Portfolio</title>
+    
+    <meta name="description" content="" />
+    <meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+    
+    <!--[if lt IE 9]>
+	<script type="text/javascript" src="assets/plugins/lt-ie9/html5.js"></script>
+	<script type="text/javascript" src="assets/plugins/lt-ie9/respond.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/lt-ie9/excanvas.compiled.js"></script>
+    <![endif]--> 
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
+    
+    <!-- CORE CSS FRAMEWORK -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/font-linecons/linecons.css" rel="stylesheet" type="text/css" />
+    
+    <!-- PLUGINS -->
+    <link href="assets/css/superslides.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+    
+    <!-- CSS TEMPLATE -->
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/framework.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+    
+    <link href="assets/css/blog.css" rel="stylesheet" type="text/css" />
+    
+    <!-- colors : demo only -->
+    <link href="assets/css/color/green.css" rel="stylesheet" type="text/css" /><!-- default style : green-->
+    <link href="assets/css/color/blue.css" rel="alternate stylesheet" type="text/css" title="blue" />
+    <link href="assets/css/color/orange.css" rel="alternate stylesheet" type="text/css" title="orange" />
+    <link href="assets/css/color/green.css" rel="alternate stylesheet" type="text/css" title="green" />
+    <link href="assets/css/color/red.css" rel="alternate stylesheet" type="text/css" title="red" />
+    <link href="assets/css/color/yellow.css" rel="alternate stylesheet" type="text/css" title="yellow" />
+    <link href="assets/css/color/gray.css" rel="alternate stylesheet" type="text/css" title="gray" />
+    <link href="assets/css/color/pink.css" rel="alternate stylesheet" type="text/css" title="pink" />
+    <link href="assets/css/color/mauve.css" rel="alternate stylesheet" type="text/css" title="mauve" />
+    
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+    
+    <!-- STYLESWITCHER -->
+    <link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- Morenizr -->
+    <script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
+  </head>
+
+  <body>
+
     <%= yield %>
 
-  </div>
-  <% else %>
-  <%= yield %>
-  <% end %>
-
-  <div class="container">
+   
+    <!-- CORE FILES -->
+    <script type="text/javascript" src="assets/plugins/jquery/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery.isotope.js"></script>
+    <script type="text/javascript" src="assets/plugins/masonry.js"></script>
     
-    <hr>
+    <!-- PLUGINS -->
+    <script type="text/javascript" src="assets/plugins/jquery-fitvids/jquery.fitvids.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
+    <script type="text/javascript" src="assets/plugins/superslides/dist/jquery.superslides.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/carouFredSel/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-countTo/jquery.countTo.js"></script>
+    <script type="text/javascript" src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery.mb.YTPlayer.js"></script><!-- Youtube video background -->
+    <script type="text/javascript" src="assets/plugins/holder.js"></script><!-- delete on production -->
     
-    <footer>
-
-      <div class="row">
-        <div class="col-sm-12">
-	  <a href="/">Home</a> - 
-	  <a href="/services">Services</a> - 
-	  <a href="/forum">Forum</a> - 
-	  <a href="/bulletin-board">Bulletin Board</a> -
-	  <a href="/about">About</a> - 
-	  <a href="/contact">Contact</a>
-        </div>
-      </div>
-
-      <br>
-
-      <div class="row">
-        <div class="col-sm-8">
-          <p><%= data.site.copyright %></p>
-        </div>
-        <div class="col-sm-4">
-          <p class="text-right"><small><%= data.site.credit %></small></p>
-        </div>
-      </div>
-
-    </footer>
+    <!-- js scripts -->
+    <script async type="text/javascript" src="assets/js/scripts.js"></script>
     
-  </div>
-    <!-- /.container -->
-
-
-
-    <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <%= javascript_include_tag  "modern-business" %>
-
-</body>
+  </body>
 
 </html>

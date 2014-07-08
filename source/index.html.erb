@@ -1,84 +1,20 @@
----
-title: Home
-tagline: nil
----
 
-<div id="myCarousel" class="carousel slide">
-  <!-- Indicators -->
+<%= partial "partials/home" %>
 
-  
-  <% if(data.site.carousels.keys.size > 1) %>
-  <ol class="carousel-indicators">
-    <% for carousel_id in data.site.carousels.keys %>
-    <li data-target="#myCarousel" data-slide-to="<%= carousel_id %>" class="<%= (carousel_id==1) ? 'active' : '' %>"></li>
-    <% end %>
-  </ol>
-  <% end %>
- 
-  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
+<%= partial "partials/navbar" %>
 
-    <% for carousel_id in data.site.carousels.keys %>
+<%= partial "partials/about" %>
 
-    <div class="<%= (carousel_id==1) ? 'item active' : 'item' %>">
-      <div class="fill" style="background-image:url('<%= data.site.carousels[carousel_id].image %>');"></div>
-      <div class="carousel-caption">
-        <h1><%= data.site.carousels[carousel_id].caption %></h1>
-      </div>
-    </div>
+<%= partial "partials/work" %>
 
-    <% end %>
-  
-  </div>
-  
-  <!-- Controls -->
-  <% if(data.site.carousels.keys.size > 1) %>
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="icon-prev"></span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="icon-next"></span>
-  </a>
-  <% end %>
+<%= partial "partials/call" %>
 
-</div>
+<%= partial "partials/services" %>
 
-<br><br>
+<%= partial "partials/contact" %>
 
-<div class="container">
-  <div class="row">
-    <%= data.site.description %>
-  </div>
-  <!-- /.row -->
-</div>
+<%= partial "partials/map" %>
 
+<%= partial "partials/footer" %>
 
-
-<div class="section">
-  
-  <div class="container">
-    
-    <div class="row">
-
-      <% for highlight_id in data.site.highlights.keys %>
-
-      <div class="col-lg-4 col-md-4">
-        <h3><i class="fa fa-check-circle"></i> <%= data.site.highlights[highlight_id].name %></h3>
-	<%= data.site.highlights[highlight_id].detail %>
-      </div>
-
-      <% end %>
-
-    </div>
-    <!-- /.row -->
-    
-  </div>
-  <!-- /.container -->
-  
-</div>
-<!-- /.section -->
-
-
-<!-- /.container -->
 
