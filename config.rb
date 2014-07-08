@@ -79,16 +79,7 @@ activate :deploy do |deploy|
   deploy.branch = "master"
 end
 
-activate :blog do |blog|
-  blog.prefix = "blog"
-  blog.permalink = "blog/{title}.html"
-end
 
 activate :directory_indexes
 
-activate :disqus do |d|
-  d.shortname = "nsvm"
-end
-
-activate :php
 
