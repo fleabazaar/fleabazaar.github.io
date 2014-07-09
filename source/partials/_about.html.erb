@@ -22,7 +22,9 @@
 	 facebook = data.about.team[team_id].facebook
 	 twitter = data.about.team[team_id].twitter
 	 gplus = data.about.team[team_id].gplus
+	 text = data.about.team[team_id].text
       %>
+
 
       <div class="item">
 	
@@ -40,6 +42,10 @@
 	
       </div>
       
+      <div>
+	<p><%= text %></p>
+      </div>
+      
       <% end %>
       
     </div>
@@ -51,9 +57,10 @@
            name = data.about.highlights[hgh_id].name
            text = data.about.highlights[hgh_id].text
         %>
-	<div class="col-md-4">
+	<div class="col-md-6">
 	  <h3><%= name %></h3>
 	  <p><%= text %></p>
+	  <br>
 	</div>
 	<% end %>
       </div>
