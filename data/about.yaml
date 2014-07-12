@@ -1,7 +1,7 @@
 
 title: "ABOUT US"
 
-text: "Esyasoft technologies is a high end product development and core systems development company catering to energy sector. Esyasoft has been founded by the team behind Effia Technologies. Esyasoft’s innovative products help energy efficiency gains to be realised and leads to substantial savings for our clients in their energy bills. Some of our core systems developed help electrical utilities to better manage workflows and increase productivity. With unmatched analytical capabilities, Esyasoft products give clients unique insights which help in decisions."
+text: "Esyasoft technologies is a high end product development and core systems development company catering to energy sector. Esyasoft has been founded by the team behind Effia Technologies. Esyasoft’s innovative products help Utilities to improve their operational efficiencies and . Some of our core systems developed help electrical utilities to better manage workflows and increase productivity. With unmatched analytical capabilities, Esyasoft products give clients unique insights which help in decisions."
 
 team:
   1:
@@ -11,7 +11,24 @@ team:
     facebook: http://www.facebook.com
     twitter:  http://www.twitter.com
     gplus:  http://plus.google.com
-    text: Bipin has over the years successfully run and been on the board of various IT companies including Effia Technologies Private Limited, Rayon Technologies Private limited and brings immense experience in managing IT companies and handling large government accounts. He worked in various roles with Mahindra British Telecom as well as HSBC before leaving to form his own venture. He holds a Bachelor of Engineering degree from National Institute of Technology, Jamshedpur.
+    text: "Bipin has over the years successfully run and been on the board of various IT companies including Effia Technologies Private Limited, Rayon Technologies Private limited and brings immense experience in managing IT companies and handling large government accounts. He worked in various roles with Mahindra British Telecom as well as HSBC before leaving to form his own venture. He holds a Bachelor of Engineering degree from National Institute of Technology, Jamshedpur."
+  2:
+    name: "Amit Krishnan"
+    profile: "Head – Strategy and Business Development" 
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: http://www.facebook.com
+    twitter:  http://www.twitter.com
+    gplus:  http://plus.google.com
+    text: "Amit is responsible for the organization’s vision and strategic direction. Amit has been a successful entrepreneur and had co-founded Effia Technologies India Private Ltd. Previously Amit was Head Management Accounting for Project and Development Services, Jones Lang LaSalle a global leader in real estate consultancy. He holds a Bachelor of Engineering degree from National Institute of Technology (N.I.T), Jamshedpur and a MBA degree in Finance from Indian Institute of Management(I.I.M), Ahmedabad"
+  3:
+    name: "Sanjay Soni"
+    profile: "Head – Delivery"
+    image: "assets/images/preview/content/people/1.jpg"
+    facebook: http://www.facebook.com
+    twitter:  http://www.twitter.com
+    gplus:  http://plus.google.com
+    text: "Sanjay has experience of handling various large projects and successfully delivering on client expectations and key performance parameters. Some of the projects he has delivered include Property tax software for BBMP, Technology solution for Vajpayee Arogyashree Scheme in Karnataka, MNREGA in Karnataka. He holds a degree in MCA from Rajiv Gandhi University, Madhya Pradesh"
+
 
 highlights:
   1:
