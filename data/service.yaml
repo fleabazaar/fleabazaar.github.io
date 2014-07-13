@@ -1,0 +1,15 @@
+
+title: "SERVICES"
+background: "assets/images/preview/slider/3.jpg"
+
+services:
+  1:
+    icon: "fa fa-code"
+    title: "Analytics"
+  2:
+    icon: "fa fa-code"
+    title: "Datacentre design and deployment"
+  3:
+    icon: "fa fa-code"
+    title: "Integration services"
+

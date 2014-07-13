@@ -996,9 +996,9 @@ footer a.toTop {
 /** 12. Portfolio
  **************************************************************** **/
 #portfolio .isotope-item {
-	max-width:360px;
+	/* max-width:360px; */
 	display:inline-block;
-	margin:8px;
+	/* margin:8px; */
 
 	-webkit-transition: all 300ms !important;
 	   -moz-transition: all 300ms !important;
@@ -1055,16 +1055,16 @@ footer a.toTop {
 		margin:5px 0;
 	}
 /* responsive - special resolutions */
-@media only screen and (max-width: 1200px) {
-	#portfolio .isotope-item {
-		max-width:280px;
-	}
-}
-@media only screen and (max-width: 640px) {
-	#portfolio .isotope-item {
-		max-width:360px;
-	}
-}
+/* @media only screen and (max-width: 1200px) { */
+/* 	#portfolio .isotope-item { */
+/* 		max-width:280px; */
+/* 	} */
+/* } */
+/* @media only screen and (max-width: 640px) { */
+/* 	#portfolio .isotope-item { */
+/* 		max-width:360px; */
+/* 	} */
+/* } */
 
 
 /** 13. Services
@@ -1369,4 +1369,29 @@ a.service:hover i {
 		padding-right:15px !important;
 	}
 
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.white-popup .white-popup-title {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.white-popup .white-popup-content {
+    padding: 30px 10px;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
