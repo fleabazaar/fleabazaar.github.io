@@ -8,15 +8,13 @@
     </header>
     <div class="divider"></div>
     
-    <article class="text-center big-paragraph">
+    <article class="text-center">
       <p><%= data.about.text %></p>
     </article>
     
     <div>
       <%= partial "partials/team" %>
     </div>
-    
-
 
     <article>
 
@@ -24,17 +22,22 @@
 	<% for hgh_id in data.about.highlights.keys %>
 	<%
            name = data.about.highlights[hgh_id].name
+           icon = data.about.highlights[hgh_id].icon
            text = data.about.highlights[hgh_id].text
+	   ext = (hgh_id == 1) ? "id='value-box'" : ""
         %>
-	<div class="col-md-6">
-	  <h3><%= name %></h3>
+	<div <%= ext %> class="col-md-6">
+ 	   <h3><i class="<%= icon %>"></i> <%= name %></h3> 
 	  <p><%= text %></p>
 	  <br>
 	</div>
 	<% end %>
       </div>
+      
     </article>
     
+    </div>
+
   </div>
 
 </section>

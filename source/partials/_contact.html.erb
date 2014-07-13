@@ -8,9 +8,15 @@
     </header>
     <div class="divider"></div>
     <p class="text-center">
+      <% if(data.contact.facebook != "nil")  %>
       <a href="<%= data.contact.facebook %>" class="social fa fa-facebook"></a>
+      <% end %>
+      <% if(data.contact.twitter != "nil")  %>
       <a href="<%= data.contact.twitter %>" class="social fa fa-twitter"></a>
+      <% end %>
+      <% if(data.contact.gplus != "nil")  %>
       <a href="<%= data.contact.gplus %>" class="social fa fa-google-plus"></a>
+      <% end %>
     </p>
     
     <article>
@@ -30,6 +36,9 @@
 
   <br><br>
 
+
+  <% if(data.contact.gmap != "nil") %>
   <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<%= data.contact.gmap %>"></iframe>
+  <% end %>
 
 </section>

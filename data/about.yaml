@@ -33,28 +33,36 @@ team:
 highlights:
   1:
     name: "Customer Focus"
+    icon: "fa fa-bullseye"
     text: "Customer focus is a way of life for us and we believe it will lead to the overall success of our business. Our customer focus includes maintaining an effective customer relations and service program."
   2:
     name: "Excellence"
+    icon: "fa fa-thumbs-up"
     text: "This involves a high focus, a disciplined approach which shows through in our actions. We strive to go beyond set standards and constantly improve upon our own effort."
   3:
     name: "Accountability"
+    icon: "fa fa-certificate"
     text: "Accountability is the guiding principle that defines how we make commitments to one another, how we measure and report our progress how we interact when things go wrong, and how much ownership we take to get things done."
   4:
     name: "Passion to win"
+    icon: "fa fa-rocket"
     text: "We believe in change as an opportunity and not being satisfied with the status quo. A can do attitude enables us to be passionate about accomplishing tasks within timelines and exceeding expectations and thereby winning in everyday life."
 
   5:
     name: "Teamwork"
+    icon: "fa fa-group"
     text: "Teamwork means accomplishing things better and faster leading to optimum usage of resources and increasing organisation efficiency and effectiveness."
   6:
     name: "Innovation"
+    icon: "fa fa-cogs"
     text: "Innovation comes from a constant learning culture and finding new ways of accomplishing the objectives, be it personal, organisational or technological."
   7:
     name: "Respect for people"
+    icon: "fa fa-child"
     text: "We believe in giving respect and consideration for everyone we interact and work with."
   8:
     name: "Integrity"
+    icon: "fa fa-code-fork"
     text: "Integrity means adhering to a code of ethics and doing the right thing by sticking to that code. We are very clear the personal integrity is a part of business integrity, and doing the right thing in business and professional life is immensely powerful for the individual and our company."
 
     

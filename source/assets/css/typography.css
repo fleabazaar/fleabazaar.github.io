@@ -189,7 +189,7 @@ form input.err {
 /** 02. Spacing
  **************************************************************** **/
 header {
-	margin:0 0 40px 0;
+	margin:0 0 20px 0;
 	text-transform:uppercase;
 }
 
@@ -204,7 +204,7 @@ p {
 	}
 
 section {
-	padding:110px 0;
+	padding:40px 0;
 }
 
 	section section {
@@ -216,7 +216,7 @@ section {
 	}
 
 section article {
-	margin-bottom:80px;
+	margin-bottom:30px;
 }
 	section article:last-child {
 		margin-bottom:0;

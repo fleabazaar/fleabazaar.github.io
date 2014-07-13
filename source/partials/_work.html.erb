@@ -1,5 +1,6 @@
 
 <section id="work" class="alternate arrow-down">
+
   <div class="container">
 
     <header class="text-center">
@@ -18,16 +19,17 @@
 	  
 	  <% for solution_id in data.work.solutions.keys %>
 	  <%
-            image = data.work.solutions[solution_id].image
-            title = data.work.solutions[solution_id].title
-            subtitle = data.work.solutions[solution_id].subtitle
+             image = data.work.solutions[solution_id].image
+             title = data.work.solutions[solution_id].title
+             icon = data.work.solutions[solution_id].icon
+             subtitle = data.work.solutions[solution_id].subtitle
           %>
 
 	  <li class="isotope-item col-xs-6 col-sm-6 col-md-6 col-lg-3 image">
 	    <a class="popup-project" href="#work_<%= solution_id %>">
 	      <img src="<%= image %>" class="img-responsive" alt="img" />
 	      <div class="caption">
-		<i class="rounded fa fa-camera"></i>
+		<i class="rounded <%= icon %>"></i>
 		<h3><%= title %></h3>
 		<% if(subtitle != "nil") %>
 		<p><%= subtitle %></p>
@@ -39,6 +41,7 @@
 	  <% end %>
 
 	</ul>
+      
       </div>
       
     </div>
@@ -68,7 +71,7 @@
 	  <img src="<%= image %>" class="img-responsive" alt="img" />
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
-	  <%= detail_text %>
+	  <article><%= detail_text %></article>
 	</div>
       </div>
       <% if(detail_text_b != "nil") %>
