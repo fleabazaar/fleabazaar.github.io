@@ -1,15 +1,33 @@
 
 title: "SERVICES"
-background: "assets/images/preview/slider/3.jpg"
+background: "http://placehold.it/1900x1080/D3D3D3&text=Placeholder"
+icon: "fa fa-cog"
+
 
 services:
   1:
     icon: "fa fa-bar-chart-o"
     title: "Analytics"
+    color: green
+    image: "http://placehold.it/450x500/000080&text=Placeholder"
+    image_sec: "http://placehold.it/450x500/FFFF00&text=Placeholder"
+    details: "Content not available"
+    details_sec: "Content not available"
   2:
     icon: "fa fa-database"
     title: "Datacentre design and deployment"
+    color: blue
+    image: "http://placehold.it/450x500/00FF00&text=Placeholder"
+    image_sec: "http://placehold.it/450x500/FF0000&text=Placeholder"
+    details: "Content not available"
+    details_sec: "Content not available"
   3:
     icon: "fa fa-cogs"
     title: "Integration services"
+    color: yellow
+    image: "http://placehold.it/450x500/FF0000&text=Placeholder"
+    image_sec: "http://placehold.it/450x500/00FF00&text=Placeholder"
+    details: "Content not available"
+    details_sec: "Content not available"
+
 

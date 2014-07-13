@@ -4,7 +4,7 @@
   <div class="container">
 
     <header class="text-center">
-      <h1><%= data.work.title %></h1>
+      <h1><i class="<%= data.work.icon %>"></i>&nbsp;<%= data.work.title %></h1>
     </header>
     
     <div class="divider"><!-- lines divider --></div>
@@ -53,6 +53,7 @@
   <%
      title = data.work.solutions[solution_id].title
      image = data.work.solutions[solution_id].image
+     image_b = data.work.solutions[solution_id].image_sec
      detail_text = data.work.solutions[solution_id].details
      detail_text_b = data.work.solutions[solution_id].details_sec
   %>
@@ -67,17 +68,22 @@
     
     <div class="white-popup-content container">
       <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
 	  <img src="<%= image %>" class="img-responsive" alt="img" />
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
 	  <article><%= detail_text %></article>
 	</div>
       </div>
       <% if(detail_text_b != "nil") %>
       <br>
       <div class="row">
-	<%= detail_text_b %>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+	  <%= detail_text_b %>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+	  <img src="<%= image_b %>" class="img-responsive" alt="img" />
+	</div>
       </div>
       <% end %>
     </div>

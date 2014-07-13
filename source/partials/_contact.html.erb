@@ -4,7 +4,7 @@
   <div class="container">
 
     <header class="text-center">
-      <h1><%= data.contact.title %></h1>
+      <h1><i class="<%= data.contact.icon %>"></i>&nbsp;<%= data.contact.title %></h1>
     </header>
     <div class="divider"></div>
     <p class="text-center">
@@ -22,12 +22,13 @@
     <article>
       <p class="text-center big-paragraph">
 	<div class="col-md-6 text-left">
-	  <%= data.contact.address %>
+	  <div style="float:left;"><i class="fa fa-5x fa-building"></i>&nbsp;</div>
+	  <div><%= data.contact.address %></div>
 	</div>
 	<div class="col-md-6 text-right">
-	  <%= data.contact.phone %>
+	  <i class="fa fa-phone"></i>&nbsp;<%= data.contact.phone %>
 	  <br>
-	  <%= data.contact.email %>
+	  <i class="fa fa-envelope"></i>&nbsp;<a href="mailto:data.contact.email"><%= data.contact.email %></a>
 	</div>
       </p>
     </article>

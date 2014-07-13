@@ -1,13 +1,13 @@
 
 title: "ABOUT US"
-
+icon: "fa fa-users"
 text: "Esyasoft technologies is a high end product development and core systems development company catering to energy sector. Esyasoft has been founded by the team behind Effia Technologies. Esyasoft’s innovative products help Utilities to improve their operational efficiencies and . Some of our core systems developed help electrical utilities to better manage workflows and increase productivity. With unmatched analytical capabilities, Esyasoft products give clients unique insights which help in decisions."
 
 team:
   1:
     name: "Bipin Chandra"
     profile: "Founder and CEO" 
-    image: "assets/images/preview/content/people/1.jpg"
+    image: "http://placehold.it/1900x1080&text=Placeholder"
     facebook: http://www.facebook.com
     twitter:  http://www.twitter.com
     gplus:  http://plus.google.com
@@ -15,7 +15,7 @@ team:
   2:
     name: "Amit Krishnan"
     profile: "Head – Strategy and Business Development" 
-    image: "assets/images/preview/content/people/1.jpg"
+    image: "http://placehold.it/1900x1080&text=Placeholder"
     facebook: http://www.facebook.com
     twitter:  http://www.twitter.com
     gplus:  http://plus.google.com
@@ -23,7 +23,7 @@ team:
   3:
     name: "Sanjay Soni"
     profile: "Head – Delivery"
-    image: "assets/images/preview/content/people/1.jpg"
+    image: "http://placehold.it/1900x1080&text=Placeholder"
     facebook: http://www.facebook.com
     twitter:  http://www.twitter.com
     gplus:  http://plus.google.com
