@@ -1,41 +1,40 @@
 
-<div id="team">
+<div id="team" class="row">
 
-<% for team_id in data.about.team.keys %>
-<%
-   name = data.about.team[team_id].name
-   profile = data.about.team[team_id].profile
-   image = data.about.team[team_id].image
-   facebook = data.about.team[team_id].facebook
-   twitter = data.about.team[team_id].twitter
-   gplus = data.about.team[team_id].gplus
-   text = data.about.team[team_id].text
-%>
+  <% for team_id in data.about.team.keys %>
+  <%
+     name = data.about.team[team_id].name
+     profile = data.about.team[team_id].profile
+     image = data.about.team[team_id].image
+     facebook = data.about.team[team_id].facebook
+     twitter = data.about.team[team_id].twitter
+     gplus = data.about.team[team_id].gplus
+     text = data.about.team[team_id].text
+  %>
 
-<div class="me-picture text-center col-md-4">
+  <div class="me-picture text-center col-md-4">
   
-  <div class="item">
+    <div class="item">
     
-    <span class="socials animated bounceIn">
-      <a target="_blank" href="<%= facebook %>" class="social fa fa-facebook"></a>
-      <a target="_blank" href="<%= twitter %>" class="social fa fa-twitter"></a>
-      <a target="_blank" href="<%= gplus %>" class="social fa fa-google-plus"></a>
-    </span>
-    
-    <img class="img-responsive" src="<%= image %>" width="200" height="200" alt="" />
-    
-    <div class="member-name">
-      <h3><%= name %><small><%= profile %></small></h3>
+      <span class="socials animated bounceIn">
+	<a target="_blank" href="<%= facebook %>" class="social fa fa-facebook"></a>
+	<a target="_blank" href="<%= twitter %>" class="social fa fa-twitter"></a>
+	<a target="_blank" href="<%= gplus %>" class="social fa fa-google-plus"></a>
+      </span>
+      
+      <img class="img-responsive" src="<%= image %>" width="200" height="200" alt="" />
+      
+      <div class="member-name">
+	<h3><%= name %><small><%= profile %></small></h3>
+      </div>
+      
     </div>
-    
+  
+    <div class="text-left"><%= text %></div>
+  
   </div>
-  
-  <div class="text-left"><%= text %></div>
-  
-</div>
 
-<% end %>
-
+  <% end %>
 
 </div>  
 
