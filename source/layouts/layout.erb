@@ -3,112 +3,31 @@
 <html lang="en-US">
 
   <head>
-  
+
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="Author" content="www.crowlventures.com" />
     
     <title><%= data.site.title %></title>
     
-    <meta name="description" content="" />
-    <meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
-    
-    <!--[if lt IE 9]>
-	<script type="text/javascript" src="assets/plugins/lt-ie9/html5.js"></script>
-	<script type="text/javascript" src="assets/plugins/lt-ie9/respond.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/lt-ie9/excanvas.compiled.js"></script>
-    <![endif]--> 
-
-
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="stylesheets/modern-business.css" rel="stylesheet">
 
-    <!-- <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
-
-    <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
-   
-    <!-- CORE CSS FRAMEWORK -->
-    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!-- <link href="assets/plugins/font-linecons/linecons.css" rel="stylesheet" type="text/css" /> -->
-    
-    <!-- PLUGINS -->
-    <link href="assets/css/superslides.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
-    
-    <!-- CSS TEMPLATE -->
-    <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/framework.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/typography.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
-    
-    <link href="assets/css/blog.css" rel="stylesheet" type="text/css" />
-    
-    <!-- colors : demo only -->
-    <!-- <link href="assets/css/color/green.css" rel="stylesheet" type="text/css" /><\!-- default style : green-\-> -->
-    <!-- <link href="assets/css/color/blue.css" rel="alternate stylesheet" type="text/css" title="blue" /> -->
-    <!-- <link href="assets/css/color/orange.css" rel="alternate stylesheet" type="text/css" title="orange" /> -->
-    <!-- <link href="assets/css/color/green.css" rel="alternate stylesheet" type="text/css" title="green" /> -->
-    <!-- <link href="assets/css/color/red.css" rel="alternate stylesheet" type="text/css" title="red" /> -->
-    <!-- <link href="assets/css/color/yellow.css" rel="alternate stylesheet" type="text/css" title="yellow" /> -->
-    <!-- <link href="assets/css/color/gray.css" rel="alternate stylesheet" type="text/css" title="gray" /> -->
-    <!-- <link href="assets/css/color/pink.css" rel="alternate stylesheet" type="text/css" title="pink" /> -->
-    <!-- <link href="assets/css/color/mauve.css" rel="alternate stylesheet" type="text/css" title="mauve" /> -->
-    
-    <!-- ICONS -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
-    
-    <!-- mobile settings -->
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
-    
-    <!-- STYLESWITCHER -->
-    <!-- <link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css"/> -->
-    
-    <!-- Morenizr -->
-    <script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
   </head>
 
   <body>
 
-    <!-- PRELOADER -->
-    <div id="preloader">
-      <div id="status">&nbsp;</div>
-    </div>
-
-
+    <%= partial "partials/navbar" %>
     <%= yield %>
-
+    <%= partial "partials/footer" %>
    
-    <!-- CORE FILES -->
-    <script type="text/javascript" src="assets/plugins/jquery/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery.isotope.js"></script>
-    <script type="text/javascript" src="assets/plugins/masonry.js"></script>
-    
-    <!-- PLUGINS -->
-    <script type="text/javascript" src="assets/plugins/jquery-fitvids/jquery.fitvids.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
-    <script type="text/javascript" src="assets/plugins/superslides/dist/jquery.superslides.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-owl-carousel/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/carouFredSel/jquery.carouFredSel-6.2.1-packed.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-countTo/jquery.countTo.js"></script>
-    <script type="text/javascript" src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery.mb.YTPlayer.js"></script><!-- Youtube video background -->
-    <script type="text/javascript" src="assets/plugins/holder.js"></script><!-- delete on production -->
-    
-    <!-- js scripts -->
-    <script async type="text/javascript" src="assets/js/scripts.js"></script>
-
-    <!-- Preloader -->
-    <script type="text/javascript">
-      //<![CDATA[
-        $(window).load(function() { // makes sure the whole site is loaded
-        $("#status").fadeOut(); // will first fade out the loading animation
-        $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
-        })
-      //]]>
-    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="javascripts/modern-business.js"></script>
     
   </body>
 
