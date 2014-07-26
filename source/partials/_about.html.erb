@@ -1,4 +1,8 @@
 
+<% if(data.company.about.tagline != "nil") %>
+<div class="row"><div class="col-md-12"><%= data.company.about.tagline %></div></div>
+<% end %>
+
 <div class="row">
   <div class="col-md-8">
     <p><%= data.company.about.text %></p>

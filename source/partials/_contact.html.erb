@@ -7,6 +7,11 @@
    gmap = data.company.contact.gmap
 %>
 
+<% if(data.company.contact.tagline != "nil") %>
+<div class="row"><div class="col-md-12"><%= data.company.contact.tagline %></div></div>
+<% end %>
+
+<br>
 
 <div class="row">
   

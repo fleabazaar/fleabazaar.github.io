@@ -1,9 +1,11 @@
 
-<div class="row">
+<% if(data.company.Values.tagline != "nil") %>
+<div class="row"><div class="col-md-12"><%= data.company.Values.tagline %></div></div>
+<% end %>
 
-  <div class="col-md-4">
-    <img class="img-responsive" src="<%= data.company.Values.image %>">
-  </div>
+<br>
+
+<div class="row">
 
   <div class="col-md-8">
 
@@ -21,6 +23,10 @@
       <% end %>
     </div>
   
+  </div>
+
+  <div class="col-md-4">
+    <img class="img-responsive" src="<%= data.company.Values.image %>">
   </div>
 
 </div>

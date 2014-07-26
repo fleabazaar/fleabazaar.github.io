@@ -3,6 +3,12 @@
 
   <%= partial "partials/breadcrumbs", :locals => { :title => data.solution.title, :tagline => data.solution.tagline }  %>
 
+  <% if(data.solution.tagline != "nil") %>
+  <div class="row"><div class="col-md-12"><%= data.solution.tagline %></div></div>
+  <% end %>
+
+  <br>
+
   <div class="row">
     <% for solution_id in data.solution.solutions.keys %>
     <%

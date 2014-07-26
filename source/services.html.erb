@@ -3,6 +3,12 @@
 
   <%= partial "partials/breadcrumbs", :locals => { :title => data.service.title, :tagline => data.service.tagline }  %>
 
+  <% if(data.service.tagline != "nil") %>
+  <div class="row"><div class="col-md-12"><%= data.service.tagline %></div></div>
+  <% end %>
+
+  <br>
+  
   <div class="row">
     <% for service_id in data.service.services.keys %>
     <%
