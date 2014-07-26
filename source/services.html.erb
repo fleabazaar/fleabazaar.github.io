@@ -1,15 +1,15 @@
 
 <div class="container">
 
-  <%= partial "partials/breadcrumbs", :locals => { :title => data.service.title, :tagline => data.service.tagline }  %>
+  <%= partial "partials/breadcrumbs", :locals => { :title => data.solution.title, :tagline => data.solution.tagline }  %>
 
   <div class="row">
-    <% for service_id in data.service.services.keys %>
+    <% for solution_id in data.solution.solutions.keys %>
     <%
-       name = data.service.services[service_id].name
-       image = data.service.services[service_id].image
-       summary = data.service.services[service_id].summary
-       link_tag = data.service.services[service_id].link_tag
+       name = data.solution.solutions[solution_id].name
+       image = data.solution.solutions[solution_id].image
+       summary = data.solution.solutions[solution_id].summary
+       link_tag = data.solution.solutions[solution_id].link_tag
     %>
     <div class="col-md-3 col-sm-6">
       <div class="panel panel-default text-center">
