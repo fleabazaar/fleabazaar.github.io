@@ -3,14 +3,14 @@ title: "Company"
 
 about:
   title: "About Us"
-  tagline: "subheading"
+  tagline: ""
   image: ""
   text: "<p>Esyasoft Technologies Private Limited is a core system development company, which has products and services catering specifically to the growing energy automation sector. With strong capabilities in Smart-Grid implementation, Energy Audit Automation and Energy Analytics, Esyasoft is poised to help the energy sector modernise their technology infrastructure.</p> <p>Formed by the team behind Effia Technologies, with large scale deployments, Esyasoft has a strong technology team and domain expertise in energy sector to revolutionise solutions for our clients.</p> <p>Our philosophy, of one client, one solution enables us to meet customised needs of each client, leveraging the best practices from our previous deployments.</p> <p>With qualified professionals, drawn from some of the premier institutions and organisations, the quality of our solutions and services stand out among peers.</p>"
 
 
 Values:
   title: "Values"
-  tagline: "subheading"
+  tagline: "They are the corner sotnes on which Esyasoft engages and operates at all times"
   image: ""
   list:
     1:
@@ -49,8 +49,8 @@ Values:
 
 
 team:
-  title: "Core Team"
-  tagline: "subheading"
+  title: "Leadership Team"
+  tagline: "The core team that not only provide the vision and guidance, also ensures client focus, quality and operation efficiency at all times."
   members:
     1:
       name: "Bipin Chandra"
@@ -79,7 +79,7 @@ team:
 
 contact:
   title: "Contact"
-  tagline: "subheading"
+  tagline: "Thank you for visiting us and for your interest in us...."
   name: "Esyasoft Pvt Limited"
   address: "# 135, 3rd Floor, Infantry road,<br>Opp. The Hindu Office,<br> Bangalore - 560 001, India"
   phone: "+91 98866 45937"
