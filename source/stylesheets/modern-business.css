@@ -50,7 +50,7 @@ body {
 
 /* Half Page Height Carousel Customization */
 .carousel {
-  height: 50%;
+  height: 75%;
 }
 
 .item,
@@ -134,10 +134,9 @@ footer {
 .navbar-default {
     background-color: #fff;
     border-color: #e7e7e7;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
     vertical-align: middle;
-    height: 70px;
+    height: 75px;
     padding: 10px 0;
 }
 
@@ -145,3 +144,10 @@ footer {
     border-width: 0 0 1px 0;
 }
 
+.dropdown-menu {
+    background-color: #fff;
+}
+
+.dropdown-menu li {
+    font-size: 16px;
+}
