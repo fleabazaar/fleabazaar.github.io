@@ -5,7 +5,7 @@ about:
   title: "About Us"
   tagline: "subheading"
   image: ""
-  text: "Esyasoft technologies is a high end product development and core systems development company catering to energy sector. Esyasoft has been founded by the team behind Effia Technologies. Esyasoft’s innovative products help Utilities to improve their operational efficiencies and . Some of our core systems developed help electrical utilities to better manage workflows and increase productivity. With unmatched analytical capabilities, Esyasoft products give clients unique insights which help in decisions."
+  text: "<p>Esyasoft Technologies Private Limited is a core system development company, which has products and services catering specifically to the growing energy automation sector. With strong capabilities in Smart-Grid implementation, Energy Audit Automation and Energy Analytics, Esyasoft is poised to help the energy sector modernise their technology infrastructure.</p> <p>Formed by the team behind Effia Technologies, with large scale deployments, Esyasoft has a strong technology team and domain expertise in energy sector to revolutionise solutions for our clients.</p> <p>Our philosophy, of one client, one solution enables us to meet customised needs of each client, leveraging the best practices from our previous deployments.</p> <p>With qualified professionals, drawn from some of the premier institutions and organisations, the quality of our solutions and services stand out among peers.</p>"
 
 
 Values:
@@ -54,7 +54,7 @@ team:
   members:
     1:
       name: "Bipin Chandra"
-      profile: "Founder and CEO" 
+      profile: "Founder and CEO"
       image: ""
       facebook: http://www.facebook.com
       twitter:  http://www.twitter.com
@@ -62,8 +62,8 @@ team:
       text: "Bipin has over the years successfully run and been on the board of various IT companies including Effia Technologies Private Limited, Rayon Technologies Private limited and brings immense experience in managing IT companies and handling large government accounts. He worked in various roles with Mahindra British Telecom as well as HSBC before leaving to form his own venture. He holds a Bachelor of Engineering degree from National Institute of Technology, Jamshedpur."
     2:
       name: "Amit Krishnan"
-      profile: "Head – Strategy and Business Development" 
-      image: ""	     
+      profile: "Head – Strategy and Business Development"
+      image: ""
       facebook: http://www.facebook.com
       twitter:  http://www.twitter.com
       gplus:  http://plus.google.com
