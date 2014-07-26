@@ -1,31 +1,33 @@
-
 <footer>
 
-<br><br><br>
+  <div class="section-colored">
+    <div class="container">
 
-<div class="section-colored text-center">
-  <div class="container">
-    <ul class="nav navbar-nav navbar-left">
-      <li><a href="/">Home</a></li>
-      <li><a href="/solutions">Solutions</a></li>
-      <li><a href="/services">Services</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/team">Team</a></li>
-      <li><a href="/values">Values</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-  </div>
-  <div class="container">
-    <hr>
-    <div class="row">
-      <div class="col-sm-8 text-left"
-        <p><%= data.site.copyright %></p>
+      <div class="row">
+	<div class="col-sm-12 col-md-8 text-left">
+	  <a href="/">Home</a> - 
+	  <a href="/solutions">Solutions</a> - 
+	  <a href="/services">Services</a> - 
+	  <a href="/about">About</a> - 
+	  <a href="/team">Team</a> - 
+	  <a href="/values">Values</a> - 
+	  <a href="/contact">Contact</a>
+	</div>
+	<div class="col-sm-12 col-md-4 text-right">
+	  <%= partial "partials/social" %>	  
+	</div>
       </div>
-      <div class="col-sm-4 text-right">
-        <p class="text-right"><small><%= data.site.credit %></small></p>
+
+      <div class="row">
+	<div class="col-sm-12 col-md-8 text-left">
+          <p><%= data.site.copyright %></p>
+	</div>
+	<div class="col-sm-12 col-md-4 text-right">
+          <p class="text-right"><small><%= data.site.credit %></small></p>
+	</div>
       </div>
+    
     </div>
   </div>
-</div>
 
 </footer>

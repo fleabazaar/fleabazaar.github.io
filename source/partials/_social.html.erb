@@ -1,0 +1,34 @@
+
+<%
+   linkedin = data.company.contact.linkedin
+   twitter = data.company.contact.twitter
+   facebook = data.company.contact.facebook
+%>
+
+<ul class="list-unstyled list-inline list-social-icons">
+
+  <% if(linkedin != 'nil') %>
+  <li class="tooltip-social linkedin-link">
+    <a href="<%= linkedin %>" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+      <i class="fa fa-linkedin-square fa-2x"></i>
+    </a>
+  </li>
+  <% end %>
+
+  <% if(twitter != 'nil') %>
+  <li class="tooltip-social linkedin-link">
+    <a href="<%= twitter %>" data-toggle="tooltip" data-placement="top" title="Twitter">
+      <i class="fa fa-twitter-square fa-2x"></i>
+    </a>
+  </li>
+  <% end %>
+
+  <% if(facebook != 'nil') %>
+  <li class="tooltip-social linkedin-link">
+    <a href="<%= facebook %>" data-toggle="tooltip" data-placement="top" title="Facebook">
+      <i class="fa fa-facebook-square fa-2x"></i>
+    </a>
+  </li>
+  <% end %>
+
+</ul>

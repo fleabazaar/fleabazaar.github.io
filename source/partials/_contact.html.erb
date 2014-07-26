@@ -4,7 +4,6 @@
    address = data.company.contact.address
    phone = data.company.contact.phone
    email = data.company.contact.email
-   linkedin = data.company.contact.linkedin
    gmap = data.company.contact.gmap
 %>
 
@@ -12,7 +11,7 @@
 <div class="row">
   
   <div class="col-xs-8">
-    <iframe width="100%" height="200px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<%= gmap %>"> </iframe>
+    <iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<%= gmap %>"> </iframe>
   </div>
   
   <div class="col-sm-4">
@@ -20,20 +19,10 @@
     <h4><%= name %></h4>
     <p><%= address %></p>
     
-    <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: <%= phone %></p>
-    <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:<%= email %>"><%= email %></a></p>
+    <p><i class="fa fa-phone"></i>&nbsp;<%= phone %></p>
+    <p><i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:<%= email %>"><%= email %></a></p>
 
-    <ul class="list-unstyled list-inline list-social-icons">
-      
-      <% if(linkedin != 'nil') %>
-      <li class="tooltip-social linkedin-link">
-	<a href="<%= linkedin %>" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-	  <i class="fa fa-linkedin-square fa-2x"></i>
-	</a>
-      </li>
-      <% end %>
-      
-    </ul>
+    <%= partial "partials/social" %>	  
     
   </div>
   

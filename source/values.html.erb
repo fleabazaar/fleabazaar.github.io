@@ -6,7 +6,7 @@
 
   <div class="row">
     <div class="col-md-2">
-      <%= partial "partials/sidebar" %>
+      <%= partial "partials/sidebar", :locals => {:active_tab => 'values'} %>
     </div>
     <div class="col-md-10">
       <h2><%= data.company.Values.title %></h2>
