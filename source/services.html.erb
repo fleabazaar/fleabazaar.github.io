@@ -1,0 +1,30 @@
+
+<div class="container">
+
+  <%= partial "partials/breadcrumbs", :locals => { :title => data.service.title, :tagline => data.service.tagline }  %>
+
+  <div class="row">
+    <% for service_id in data.service.services.keys %>
+    <%
+       name = data.service.services[service_id].name
+       image = data.service.services[service_id].image
+       summary = data.service.services[service_id].summary
+       link_tag = data.service.services[service_id].link_tag
+    %>
+    <div class="col-md-3 col-sm-6">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <span class="fa-stack fa-5x">
+          </span>
+        </div>
+        <div class="panel-body">
+          <h4><%= name %></h4>
+          <p><%= summary %></p>
+          <a href="#" class="btn btn-primary"><%= link_tag %></a>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+
+</div>

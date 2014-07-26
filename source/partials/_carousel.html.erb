@@ -1,0 +1,39 @@
+
+<% total_images = data.home.slider.keys.size %>
+
+<div id="myCarousel" class="carousel slide">
+  
+  <% if(total_images > 1) %>
+  <ol class="carousel-indicators">
+    <% for carousel_id in data.home.slider.keys %>
+    <li data-target="#myCarousel" data-slide-to="<%= carousel_id %>" class="<%= (carousel_id==1) ? 'active' : '' %>"></li>
+    <% end %>
+  </ol>
+  <% end %>
+  
+  <div class="carousel-inner">
+    <% for carousel_id in data.home.slider.keys %>
+    <%
+       image = data.home.slider[carousel_id].image
+       caption = data.home.slider[carousel_id].caption
+       color = data.home.slider[carousel_id].color
+    %>
+    <div class="<%= (carousel_id==1) ? 'item active' : 'item' %>">
+      <div class="fill" style="background-image:url('<%= image %>');"></div>
+      <div class="carousel-caption">
+        <h1 style="color:<%= color %>"><%= caption %></h1>
+      </div>
+    </div>
+    <% end %>
+  </div>
+  
+  <% if(total_images > 1) %>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+  <% end %>
+
+</div>

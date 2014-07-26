@@ -1,0 +1,88 @@
+
+title: "Company"
+
+about:
+  title: "About Us"
+  tagline: "subheading"
+  image: ""
+  text: "Esyasoft technologies is a high end product development and core systems development company catering to energy sector. Esyasoft has been founded by the team behind Effia Technologies. Esyasoft’s innovative products help Utilities to improve their operational efficiencies and . Some of our core systems developed help electrical utilities to better manage workflows and increase productivity. With unmatched analytical capabilities, Esyasoft products give clients unique insights which help in decisions."
+
+
+Values:
+  title: "Values"
+  tagline: "subheading"
+  image: ""
+  list:
+    1:
+      name: "Accountability"
+      icon: "fa fa-certificate"
+      text: "Accountability is the guiding principle that defines how we make commitments to one another, how we measure and report our progress how we interact when things go wrong, and how much ownership we take to get things done."
+    2:
+      name: "Passion to win"
+      icon: "fa fa-rocket"
+      text: "We believe in change as an opportunity and not being satisfied with the status quo. A can do attitude enables us to be passionate about accomplishing tasks within timelines and exceeding expectations and thereby winning in everyday life."
+    3:
+      name: "Innovation"
+      icon: "fa fa-cogs"
+      text: "Innovation comes from a constant learning culture and finding new ways of accomplishing the objectives, be it personal, organisational or technological."
+    4:
+      name: "Teamwork"
+      icon: "fa fa-group"
+      text: "Teamwork means accomplishing things better and faster leading to optimum usage of resources and increasing organisation efficiency and effectiveness."
+    5:
+      name: "Customer Focus"
+      icon: "fa fa-bullseye"
+      text: "Customer focus is a way of life for us and we believe it will lead to the overall success of our business. Our customer focus includes maintaining an effective customer relations and service program."
+    6:
+      name: "Integrity"
+      icon: "fa fa-code-fork"
+      text: "Integrity means adhering to a code of ethics and doing the right thing by sticking to that code. We are very clear the personal integrity is a part of business integrity, and doing the right thing in business and professional life is immensely powerful for the individual and our company."
+    7:
+      name: "Excellence"
+      icon: "fa fa-thumbs-up"
+      text: "This involves a high focus, a disciplined approach which shows through in our actions. We strive to go beyond set standards and constantly improve upon our own effort."
+    8:
+      name: "Respect for people"
+      icon: "fa fa-child"
+      text: "We believe in giving respect and consideration for everyone we interact and work with."
+
+
+
+team:
+  title: "Core Team"
+  tagline: "subheading"
+  members:
+    1:
+      name: "Bipin Chandra"
+      profile: "Founder and CEO" 
+      image: ""
+      facebook: http://www.facebook.com
+      twitter:  http://www.twitter.com
+      gplus:  http://plus.google.com
+      text: "Bipin has over the years successfully run and been on the board of various IT companies including Effia Technologies Private Limited, Rayon Technologies Private limited and brings immense experience in managing IT companies and handling large government accounts. He worked in various roles with Mahindra British Telecom as well as HSBC before leaving to form his own venture. He holds a Bachelor of Engineering degree from National Institute of Technology, Jamshedpur."
+    2:
+      name: "Amit Krishnan"
+      profile: "Head – Strategy and Business Development" 
+      image: ""	     
+      facebook: http://www.facebook.com
+      twitter:  http://www.twitter.com
+      gplus:  http://plus.google.com
+      text: "Amit is responsible for the organization’s vision and strategic direction. Amit has been a successful entrepreneur and had co-founded Effia Technologies India Private Ltd. Previously Amit was Head Management Accounting for Project and Development Services, Jones Lang LaSalle a global leader in real estate consultancy. He holds a Bachelor of Engineering degree from National Institute of Technology (N.I.T), Jamshedpur and a MBA degree in Finance from Indian Institute of Management(I.I.M), Ahmedabad"
+    3:
+      name: "Sanjay Soni"
+      profile: "Head – Delivery"
+      image: ""
+      facebook: http://www.facebook.com
+      twitter:  http://www.twitter.com
+      gplus:  http://plus.google.com
+      text: "Sanjay has experience of handling various large projects and successfully delivering on client expectations and key performance parameters. Some of the projects he has delivered include Property tax software for BBMP, Technology solution for Vajpayee Arogyashree Scheme in Karnataka, MNREGA in Karnataka. He holds a degree in MCA from Rajiv Gandhi University, Madhya Pradesh"
+
+contact:
+  title: "Contact"
+  tagline: "subheading"
+  name: "Esyasoft Pvt Limited"
+  address: "# 135, 3rd Floor, Infantry road,<br>Opp. The Hindu Office,<br> Bangalore - 560 001, India"
+  phone: "+91 98866 45937"
+  email: info@esyasoft.com
+  linkedin: http://www.linkedin.com
+  gmap: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.842072232055!2d77.59864600000002!3d12.981950999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1665af2049af%3A0xa543d980ebf6564f!2sEsyasoft!5e0!3m2!1sen!2s!4v1405458341384"

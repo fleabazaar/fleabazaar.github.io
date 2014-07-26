@@ -1,19 +1,36 @@
 
+welcome: "Welcome to Esyasoft"
+
 slider:
   1:
     image: assets/images/preview/slider/1.jpg
-    text_main: "Let's work together"
+    caption: "Let's work together"
+    color: "white"
   2:
     image: assets/images/preview/slider/2.jpg
-    text_main: "ONE PAGE DESIGN"
+    caption: "NOT ONE PAGE DESIGN"
+    color: "white"
   3:
     image: assets/images/preview/slider/3.jpg
-    text_main: "RESPONSIVE LAYOUT"
-  4:
-    image: assets/images/preview/slider/4.jpg
-    text_main: "RESPONSIVE LAYOUT"
-  5:
-    image: assets/images/preview/slider/5.jpg
-    text_main: "RESPONSIVE LAYOUT"
+    caption: "RESPONSIVE LAYOUT"
+    color: "white"
+    
+
+highlights:
+  1:
+    name: "Highlight A"
+    icon: "fa fa-check-circle"
+    image: assets/images/preview/slider/3.jpg
+    detail: "Details about highlight A"
+  2:
+    name: "Highlight B"
+    icon: "fa fa-check-circle"
+    image: assets/images/preview/slider/3.jpg
+    detail: "Details about highlight B"
+  3:
+    name: "Highlight C"
+    icon: "fa fa-check-circle"
+    image: assets/images/preview/slider/3.jpg
+    detail: "Details about highlight C"
 
 

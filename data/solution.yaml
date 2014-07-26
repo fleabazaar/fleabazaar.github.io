@@ -1,10 +1,10 @@
 
-title: "Services"
+title: "Solutions"
 icon: "fa fa-cog"
 tagline: "Subheading"
 
 
-services:
+solutions:
   1:
     name: "Analytics"
     image: "http://placehold.it/450x300/000080&text=Placeholder"

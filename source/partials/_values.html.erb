@@ -1,0 +1,27 @@
+
+<div class="row">
+
+  <div class="col-md-4">
+    <img class="img-responsive" src="<%= data.company.Values.image %>">
+  </div>
+
+  <div class="col-md-8">
+
+    <div class="row">
+      <% for value_id in data.company.Values.list.keys %>
+      <%
+	 name = data.company.Values.list[value_id].name
+	 icon = data.company.Values.list[value_id].icon
+	 text = data.company.Values.list[value_id].text
+      %>
+      <div id="value-box" class="col-md-6">
+	<h3><i class="<%= icon %>"></i>&nbsp;<%= name %></h3> 
+	<p><%= text %></p>
+      </div>
+      <% end %>
+    </div>
+  
+  </div>
+
+</div>
+

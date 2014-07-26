@@ -1,0 +1,17 @@
+
+<div class="container">
+
+  <%= partial "partials/breadcrumbs", 
+      :locals => { :title_main => data.company.title, :title => data.company.Values.title, :tagline => data.company.Values.tagline }  %>
+
+  <div class="row">
+    <div class="col-md-2">
+      <%= partial "partials/sidebar" %>
+    </div>
+    <div class="col-md-10">
+      <h2><%= data.company.Values.title %></h2>
+      <%= partial "partials/values" %>
+    </div>
+  </div>
+  
+</div>
