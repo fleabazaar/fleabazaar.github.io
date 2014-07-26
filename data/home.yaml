@@ -10,12 +10,7 @@ slider:
     image: "/images/Main2.jpg"
     caption: ""
     color: "white"
-  3:
-    image: ""
-    caption: ""
-    color: "white"
-
-
+  
 highlights:
   1:
     name: "Meter Data Acquisition & Management"
