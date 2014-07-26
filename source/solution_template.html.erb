@@ -1,0 +1,42 @@
+
+<%
+   name = data.solution.solutions[solution_id].name
+   image_front = data.solution.solutions[solution_id].image
+   image_a = data.solution.solutions[solution_id].image_a
+   image_b = data.solution.solutions[solution_id].image_b
+   details_a = data.solution.solutions[solution_id].details
+   details_b = data.solution.solutions[solution_id].details_sec
+%>
+
+
+<div class="container">
+
+  <%= partial "partials/breadcrumbs", :locals => { :title => data.solution.title, :tagline => data.solution.tagline }  %>
+
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+      <img src="<%= image_a %>" class="img-responsive" alt="img" />
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+      <article><%= details_a %></article>
+    </div>
+    
+  </div>
+  
+  <% if(details_b != "nil") %>
+  <br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+      <%= details_b %>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+      <img src="<%= image_b %>" class="img-responsive" alt="img" />
+    </div>
+  </div>
+  <% end %>
+
+</div>
+  
+

@@ -82,5 +82,9 @@ end
 activate :directory_indexes
 
 data.service.services.keys.each do |service_id|
-  proxy "/services/#{data.service.services[service_id].url_name}_#{service_id}.html", "/service_template.html", :locals => { :service_id => service_id }, :ignore => true
+  proxy "/services/#{data.service.services[service_id].url_name}-#{service_id}.html", "/service_template.html", :locals => { :service_id => service_id }, :ignore => true
+end
+
+data.solution.solutions.keys.each do |solution_id|
+  proxy "/solutions/#{data.solution.solutions[solution_id].url_name}-#{solution_id}.html", "/solution_template.html", :locals => { :solution_id => solution_id }, :ignore => true
 end
