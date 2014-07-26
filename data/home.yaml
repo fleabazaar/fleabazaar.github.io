@@ -1,6 +1,8 @@
 
 welcome: "Welcome to Esyasoft"
 
+text: "some text"
+
 slider:
   1:
     image: "/images/Main1.jpg"
