@@ -1,7 +1,7 @@
 
 welcome: "Welcome to Esyasoft"
 
-text: "some text"
+text: "Esyasoft Technologies Private Limited is a core system development company, which has products and services catering specifically to the growing energy automation sector. With strong capabilities in Smart-Grid implementation, Energy Audit Automation and Energy Analytics, Esyasoft is poised to help the energy sector modernise their technology infrastructure"
 
 slider:
   1:
@@ -12,7 +12,7 @@ slider:
     image: "/images/Main2.jpg"
     caption: ""
     color: "white"
-  
+
 highlights:
   1:
     name: "Meter Data Acquisition & Management"
