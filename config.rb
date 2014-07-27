@@ -90,3 +90,5 @@ end
 data.solution.solutions.keys.each do |solution_id|
   proxy "/solutions/#{data.solution.solutions[solution_id].url_name}-#{solution_id}.html", "/solution_template.html", :locals => { :solution_id => solution_id }, :ignore => true
 end
+
+activate :sitemap, :hostname => "http://www.esyasoft.com"

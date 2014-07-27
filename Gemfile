@@ -24,3 +24,5 @@ gem 'middleman-minify-html'
 gem "middleman-disqus"
 
 gem "middleman-php"
+
+gem "middleman-sitemap"
