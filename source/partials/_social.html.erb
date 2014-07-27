@@ -3,6 +3,8 @@
    linkedin = data.company.contact.linkedin
    twitter = data.company.contact.twitter
    facebook = data.company.contact.facebook
+   gplus = data.company.contact.gplus
+   email = data.company.contact.email
 %>
 
 <ul class="list-unstyled list-inline list-social-icons">
@@ -27,6 +29,22 @@
   <li class="tooltip-social linkedin-link">
     <a href="<%= facebook %>" data-toggle="tooltip" data-placement="top" title="Facebook">
       <i class="fa fa-facebook-square fa-2x"></i>
+    </a>
+  </li>
+  <% end %>
+
+  <% if(gplus != 'nil') %>
+  <li class="tooltip-social linkedin-link">
+    <a href="<%= gplus %>" data-toggle="tooltip" data-placement="top" title="Google +">
+      <i class="fa fa-google-plus-square fa-2x"></i>
+    </a>
+  </li>
+  <% end %>
+
+  <% if(email != 'nil') %>
+  <li class="tooltip-social linkedin-link">
+    <a href="mailto:<%= email %>" data-toggle="tooltip" data-placement="top" title="Email">
+      <i class="fa fa-envelope-square fa-2x"></i>
     </a>
   </li>
   <% end %>
