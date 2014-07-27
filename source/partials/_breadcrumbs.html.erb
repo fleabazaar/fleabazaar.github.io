@@ -2,12 +2,13 @@
 <% 
    title_main = title_main.nil? ? title : title_main 
    btype = btype.nil? ? "" : btype
+   icon = icon.nil? ? "nil" : icon
 %>
 
 <div class="row">
   <div class="col-lg-12">
     <h1 class="page-header">
-      <i class="<%= icon %>"></i> <%= title_main %>
+      <% if(icon != "nil") %><i class="<%= icon %>"></i> <% end %><%= title_main %>
     </h1>
     <ol class="breadcrumb">
       <li><a href="/">Home</a></li>
