@@ -5,11 +5,11 @@ text: "Esyasoft Technologies Private Limited is a core system development compan
 
 slider:
   1:
-    image: "/images/Main1.jpg"
+    image: "/images/main1.jpg"
     caption: ""
     color: "white"
   2:
-    image: "/images/Main2.jpg"
+    image: "/images/main2.jpg"
     caption: ""
     color: "white"
 
@@ -22,7 +22,7 @@ highlights:
   2:
     name: "Smart Grid Analysis"
     icon: "fa fa-check-circle"
-    image: "http://placehold.it/400x200/000080&text=Placeholder"	
+    image: "http://placehold.it/400x200/000080&text=Placeholder"
     detail: "Utilities today are inundated with large amounts of data with the introduction of smart meters and are keen to exploit the potential benefits. However, managing and analysing such large sets of data is a challenge. <i class='fa fa-hand-o-right'></i> <a href='/services'>See more</a>"
   3:
     name: "Energy Audit"
