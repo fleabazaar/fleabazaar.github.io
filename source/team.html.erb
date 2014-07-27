@@ -2,14 +2,14 @@
 <div class="container">
 
   <%= partial "partials/breadcrumbs", 
-      :locals => { :title_main => data.company.title, :title => data.company.team.title, :tagline => data.company.team.tagline }  %>
+      :locals => { :title_main => data.company.title, :title => data.company.team.title, :tagline => data.company.team.tagline, :icon => "fa fa-building" }  %>
 
   <div class="row">
     <div class="col-md-2">
       <%= partial "partials/sidebar", :locals => {:active_tab => 'team'} %>
     </div>
     <div class="col-md-10">
-      <h2><%= data.company.team.title %></h2>
+      <h2><i class="fa fa-users"></i> <%= data.company.team.title %></h2>
       <%= partial "partials/team" %>
     </div>
   </div>

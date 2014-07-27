@@ -1,7 +1,7 @@
 
 <div class="container">
 
-  <%= partial "partials/breadcrumbs", :locals => { :title => data.solution.title }  %>
+  <%= partial "partials/breadcrumbs", :locals => { :title => data.solution.title, :icon => "fa fa-thumbs-up" }  %>
 
   <% if(data.solution.tagline != "nil") %>
   <div class="row"><div class="col-md-12"><%= data.solution.tagline %></div></div>
