@@ -82,6 +82,8 @@ GEM
       middleman-core (~> 3.0)
     middleman-php (0.0.1)
       middleman-core (>= 3.2.1)
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
     middleman-sprockets (3.3.3)
       middleman-core (>= 3.2)
       sprockets (~> 2.2)
@@ -140,5 +142,6 @@ DEPENDENCIES
   middleman-livereload (~> 3.1.0)
   middleman-minify-html
   middleman-php
+  middleman-sitemap
   tzinfo-data
   wdm (~> 0.1.0)
