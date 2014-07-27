@@ -1,16 +1,16 @@
 
 title: "Career"
 icon: "fa fa-cog"
-tagline: "Subheading"
+tagline: "At Esyasofyt we provide opportunities and the envoirnment to take on challenges with inguinity and orginal thought. Esyasoft provides the fertile grounds to learn and excell at work and beyond.Our core value of respect for people ensures a healthy worklife balance and ideal workplace."
 image: /images/careers.jpg
 
 jobs:
   1:
-    position: "Senior of something"
+    position: "Senior Programers"
     location: "Bangalore, India"
     about: "some job which you will find exciting"
-    experience: "3-5 years in Energy sector"
-    responsibility: "doing your work"
+    experience: "3-5 years in developing appliations and solutions. Having worked on solutions fo the Energy sector would be a plus"
+    responsibility: "Ensure the proper functioning of the aplication, oversee the testing and deployment"
   2:
     position: "Senior of something"
     location: "Bangalore, India"
