@@ -10,20 +10,33 @@
   <% for member_id in data.company.team.members.keys %>
   <%
      name = data.company.team.members[member_id].name
-     profie = data.company.team.members[member_id].profile
+     profile = data.company.team.members[member_id].profile
      image =  data.company.team.members[member_id].image
      text =  data.company.team.members[member_id].text
+     linkedin = data.company.team.members[member_id].linkedin
+     twitter = data.company.team.members[member_id].twitter
+     gplus = data.company.team.members[member_id].gplus
+     facebook = data.company.team.members[member_id].facebook
   %>
-
-  <div class="col-md-4">
-    <img class="img-responsive" src="<%= image %>">
-  </div>
-  <div class="col-md-8">
+  <div class="col-md-12">
     <div class="row">
-      <div class="col-md-12"><b><%= name %></b></div>
-      <div class="col-md-12"><%= text %></div>
+      <div class="col-md-4">
+	<img class="img-responsive" src="<%= image %>">
+	<p><%= partial "partials/social_individual", :locals =>{:linkedin=>linkedin,:twitter=>twitter,:facebook=>facebook,:gplus=>gplus} %></p>
+      </div>
+      <div class="col-md-8">
+	<div class="row">
+	  <div class="col-md-12"><b><%= name %></b>
+	    <small>
+	      &nbsp;<i><%= profile %></i>
+	    </small>
+	  </div>
+	  <div class="col-md-12">
+	    <%= text %>
+	  </div>
+	</div>
+      </div>
     </div>
-    <br>
   </div>
   <% end %>
  
