@@ -1,0 +1,48 @@
+
+<div class="container">
+
+  <%= partial "partials/breadcrumbs", :locals => { :title => data.career.title }  %>
+
+  <% if(data.career.tagline != "nil") %>
+  <div class="row"><div class="col-md-12"><%= data.career.tagline %></div></div>
+  <% end %>
+  <br>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="panel-group" id="career_accordion">
+	<% for job_id in data.career.jobs.keys %>
+	<%
+	   position = data.career.jobs[job_id].position
+	   location = data.career.jobs[job_id].location
+	   about = data.career.jobs[job_id].about
+	   experience = data.career.jobs[job_id].experience
+	   responsibility = data.career.jobs[job_id].responsibility
+	%>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+	    <h4 class="panel-title">
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#career_accordion" href="#collapse-<%= job_id %>">
+		<div class="text-left"><%= position %></div>
+	      </a>
+	      <div class="text-right"><%= location %></div>
+	    </h4>
+	  </div>
+          <div id="collapse-<%= job_id %>" class="panel-collapse collapse">
+            <div class="panel-body">
+	      <b>About</b>
+	      <p><%= about %></p>
+	      <b>Experience</b>
+	      <p><%= experience %></p>
+	      <b>Responsibility</b>
+	      <p><%= responsibility %></p>
+	    </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  

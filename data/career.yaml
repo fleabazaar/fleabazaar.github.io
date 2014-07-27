@@ -1,0 +1,24 @@
+
+title: "Career"
+icon: "fa fa-cog"
+tagline: "Subheading"
+
+jobs:
+  1:
+    position: "Senior of something"
+    location: "Bangalore, India"
+    about: "some job which you will find exciting"
+    experience: "3-5 years in Energy sector"
+    responsibility: "doing your work"
+  2:
+    position: "Senior of something"
+    location: "Bangalore, India"
+    about: "some job which you will find exciting"
+    experience: "3-5 years in Energy sector"
+    responsibility: "doing your work"
+  3:
+    position: "Senior of something"
+    location: "Bangalore, India"
+    about: "some job which you will find exciting"
+    experience: "3-5 years in Energy sector"
+    responsibility: "doing your work"
