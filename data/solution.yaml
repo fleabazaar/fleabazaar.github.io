@@ -17,7 +17,7 @@ solutions:
     details_sec: "<p>Key Components:</p><ul><li>Smart Meter Interface Gateway</li><li>Data migration tool and templates</li><li>Configurable validation, editing, and estimation (VEE) setup</li><li>Billing Determinants</li><li>Event/Notification/SMS Processor</li></ul>"
   2:
     name: "Smart Grid Analytics Platform"
-    url_name: "smart-grid-analytics-platfrom"
+    url_name: "smart-grid-analytics-platform"
     image_front: "/images/smart-grid-analytics-platform.jpg"
     image_a: "http://placehold.it/450x300/000080&text=Placeholder"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
