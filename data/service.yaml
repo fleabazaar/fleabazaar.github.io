@@ -39,7 +39,7 @@ services:
     name: "Energy Audit Services"
     url_name: "energy-audit-services"
     image_front: "/images/energy-audit-services.jpg"
-    image_a: "/images/main2.jpg"
+    image_a: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Energy Conservation efforts focus on reducing energy consumption by making more efficient use of the available energy."
     link_tag: "Details"
