@@ -22,12 +22,12 @@ highlights:
     name: "Meter Data Management"
     icon: "fa fa-check-circle"
     image: "/images/mdm.jpg"
-    detail: "Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies. An MDM solution serves as the connective tissue that binds all the disparate data collection points, interfaces, and systems together for the Smart Grid in order to create usable and accurate data that can be used for revenue and system planning purposes. <i class='fa fa-hand-o-right'></i> <a href='/solutions/meter-data-acquisition-1'>See more</a>"
+    detail: "Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies. An MDM solution serves as the connective tissue that binds all the disparate data collection points, interfaces, and systems together for the Smart Grid in order to create usable and accurate data that can be used for revenue and system planning purposes. <i class='fa fa-hand-o-right'></i> <a href='/solutions/meter-data-acquisition-1/-1/'>See more</a>"
   2:
     name: "Smart Grid Analysis"
     icon: "fa fa-check-circle"
-    image: "/images/demand-response.jpg"
-    detail: "Utilities today are inundated with large amounts of data with the introduction of smart meters and are keen to exploit the potential benefits. However, managing and analysing such large sets of data is a challenge. <i class='fa fa-hand-o-right'></i> <a href='http://www.esyasoft.com/solutions/smart-grid-analytics-platform-3/'>See more</a>"
+    image: "/images/smart-grid-analytics-platform.jpg"
+    detail: "Utilities today are inundated with large amounts of data with the introduction of smart meters and are keen to exploit the potential benefits. However, managing and analysing such large sets of data is a challenge. <i class='fa fa-hand-o-right'></i> <a href='http://www.esyasoft.com/solutions//solutions/solutions/analytics2-2/-2/'>See more</a>"
   3:
     name: "Energy Audit"
     icon: "fa fa-check-circle"
