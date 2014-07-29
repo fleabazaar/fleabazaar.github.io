@@ -50,7 +50,7 @@ body {
 
 /* Half Page Height Carousel Customization */
 .carousel {
-  height: 75%;
+  height: 50%;
 }
 
 .item,
@@ -109,7 +109,7 @@ body {
 
 .price-cents {
   vertical-align: super;
-  font-size: 50%;
+  font-size: 70%;
 }
 
 .price-month {
