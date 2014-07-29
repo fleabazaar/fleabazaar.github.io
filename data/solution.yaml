@@ -8,7 +8,7 @@ solutions:
   1:
     name: "Meter Data Acquisition (MDA)/ Meter Head end"
     url_name: "meter-data-acquisition"
-    image_front: "/images/mdm1.jpg"
+    image_front: "/images/mdm.jpg"
     image_a: "/images/mdmarch.jpg"
     image_b: "/images/mdas.jpg"
     summary: "Meter Data Acquisition (MDA) is the key component in Advanced Metering Infrastructure (AMI) and is ideal for Grid Metering as well as LT Consumer Metering and Demand Side Management"
@@ -18,7 +18,7 @@ solutions:
   2:
     name: "Smart Grid Analytics Platform"
     url_name: "analytics2"
-    image_front: "http://placehold.it/450x300/000080&text=Placeholder"
+    image_front: "/images/smart-grid-analytics-platform.jpg"
     image_a: "http://placehold.it/450x300/000080&text=Placeholder"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Utilities today are inundated with large amounts of data with the introduction of smart meters and are keen to exploit the potential benefits. However, managing and analysing such large sets of data is a challenge."
@@ -28,7 +28,7 @@ solutions:
   3:
     name: "Energy Audit Software"
     url_name: "energy-audit-software"
-    image_front: "http://placehold.it/450x300/000080&text=Placeholder"
+    image_front: "/images/energy-audit-software.jpg"
     image_a: "http://placehold.it/450x300/000080&text=Placeholder"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Esyasoft’s automated energy audit software (chubacabra) provides clients with unmatched reporting and benchmarking capability leading to targeted energy efficiency gains and lower costs towards energy."
@@ -38,7 +38,7 @@ solutions:
   4:
     name: "Demand Response Management"
     url_name: "demand-response-management"
-    image_front: "/images/demansd-response.jpg"
+    image_front: "/images/demand-response.jpg"
     image_a: "/images/demand-response1.jpg"
     image_b: "/images/demand-response1.jpg"
     summary: "Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies"
