@@ -28,7 +28,7 @@ services:
   3:
     name: "Integration services"
     url_name: "integration-services"
-    image_front: "/images/integration-services"
+    image_front: "/images/integration-services.jpg"
     image_a: "http://placehold.it/450x300/000080&text=Placeholder"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Our integration services involve successful sharing of processes and data among different applications in an enterprise setting."
@@ -38,7 +38,7 @@ services:
   4:
     name: "Energy Audit Services"
     url_name: "energy-audit-services"
-    image_front: "/images/energy-audit-services"
+    image_front: "/images/energy-audit-services.jpg"
     image_a: "/images/main2.jpg"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Energy Conservation efforts focus on reducing energy consumption by making more efficient use of the available energy."
