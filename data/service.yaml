@@ -11,7 +11,7 @@ services:
     image_front: "/images/analytic-services.jpg"
     image_a: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
-    summary: "<ul><il>..............................</il><il>..............................</il><il>..............................</il></ul>"
+    summary: "<ul><il>Analytices with precision</il><il>Analytics allowing for prredictions</il><il>Machine learning model algorythms</il></ul>"
     link_tag: "Details"
     details: "Esyasoft is an advanced analytics firm that provides services to businesses to help them make data driven business decisions, which enhance operational efficiency and build a sound and successful business. We combine our analytics expertise with deep understanding of business needs and best in class technologies to solve complex problems. We have a strong team of data scientists, data engineers, and business consultants to help deliver results suited to business requirements."
     details_sec: "Our competency pillars"
