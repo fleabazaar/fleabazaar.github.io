@@ -126,7 +126,7 @@ footer {
 @media (max-width: 767px) {
 
   .carousel {
-    height: 70%;
+    height: 50%;
  /* increases the carousel height so it looks good on phones */
   }
 }
