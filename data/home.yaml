@@ -6,11 +6,15 @@ text: "Esyasoft Technologies Private Limited is a core system development compan
 slider:
   1:
     image: "/images/main-1.jpg"
-    caption: ""
+    caption: "Smart Grid"
     color: "white"
   2:
     image: "/images/main-2.jpg"
-    caption: ""
+    caption: "Energy Audit"
+    color: "white"
+  3:
+    image: "/images/main-3.jpg"
+    caption: "Demand Response Management"
     color: "white"
 
 highlights:
