@@ -8,7 +8,7 @@ services:
   1:
     name: "Analytics"
     url_name: "analytics"
-    image_front: "/images/analytics2.jpg"
+    image_front: "/images/analytic-services.jpg"
     image_a: "/images/analytics2.jpg"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Esyasoft is an advanced analytics firm that provides services to businesses to help them make data driven business decisions, which enhance operational efficiency and build a sound and successful business. We combine our analytics expertise with deep understanding of business needs and best in class technologies to solve complex problems"
@@ -18,7 +18,7 @@ services:
   2:
     name: "Datacentre design and deployment"
     url_name: "datacentre-design-and-deployment"
-    image_front: "http://placehold.it/450x300/000080&text=Placeholder"
+    image_front: "images/datacentre-design-and-deployment.jpg"
     image_a: "/images/servers.jpg"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Esyasoft helps clients’ plan and design enterprise infrastructures for modernisation and capacity addition, new infrastructure set-up and for various application hosting solutions."
@@ -28,7 +28,7 @@ services:
   3:
     name: "Integration services"
     url_name: "integration-services"
-    image_front: "http://placehold.it/450x300/000080&text=Placeholder"
+    image_front: "images/integration-services"
     image_a: "http://placehold.it/450x300/000080&text=Placeholder"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Our integration services involve successful sharing of processes and data among different applications in an enterprise setting."
@@ -38,7 +38,7 @@ services:
   4:
     name: "Energy Audit Services"
     url_name: "energy-audit-services"
-    image_front: "http://placehold.it/450x300/000080&text=Placeholder"
+    image_front: "images/energy-audit-services"
     image_a: "/images/main2.jpg"
     image_b: "http://placehold.it/450x300/FFFF00&text=Placeholder"
     summary: "Energy Conservation efforts focus on reducing energy consumption by making more efficient use of the available energy."
