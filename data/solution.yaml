@@ -6,7 +6,7 @@ tagline: "Esyasoft is focused and dedicated to providing solutions to the energy
 
 solutions:
   1:
-    name: "Meter Data Acquisition (MDA)/ Meter Head end"
+    name: "Meter Data Management"
     url_name: "meter-data-acquisition"
     image_front: "/images/mdm.jpg"
     image_a: "/images/mdm-2.jpg"
@@ -16,7 +16,7 @@ solutions:
     details: "<p>Meter Data Acquisition (MDA) is the key component in Advanced Metering Infrastructure (AMI) and is ideal for Grid Metering as well as LT Consumer Metering and Demand Side Management. It provides utilities with a business-critical solution for storing, validating, aggregating and processing large volumes of data, in preparation for billing, settlements and other reporting and reconciliation obligations. It also allows utility to easily configure the data collection process, VEE process, alarm/alert/event/notifications generation, billing determinants.</p><p>Key Components:</p><ul><li>Smart Meter Interface Gateway</li><li>Data migration tool and templates</li><li>Configurable validation, editing, and estimation (VEE) setup</li><li>Billing Determinants</li><li>Event/Notification/SMS Processor</li></ul>"
     details_sec: "<p>Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies. An MDM solution serves as the connective tissue that binds all the disparate data collection points, interfaces, and systems together for the Smart Grid in order to create usable and accurate data that can be used for revenue and system planning purposes.</p><p>Meter data management implementations are frequently challenged by high implementation cost, Integration complexity, timelines, and infrastructure requirements.</p><p>Our MDM Solution is a highly scalable enterprise application which offers a simplified management environment, reliable processes, interfaces, Analytics & MIS Reports, Integration with associated utility applications and significantly reduces the likelihood of errors when utilizing meter data.</p><p>Our MDM Solution Offers:</p><ul><li>Seamless integration</li><li>Ease of usage</li><li>Ability to scale</li><li>Superior performance</li></ul><p>Key Components:</p><ul><li>Fast-track implementation methodology</li><li>Bundled documentation, including configuration and training manuals</li><li>Integration with utility applications i.e. GIS, SCADA, Asset Management, Billing, etc.</li><li>User Friendly HMI (Human Machine Interface)</li><li>Analytics & MIS Reports</li></ul>"
   2:
-    name: "Smart Grid Analytics Platform"
+    name: "Smart Grid Analytics"
     url_name: "smart-grid-analytics-platform"
     image_front: "/images/smart-grid-analytics-platform.jpg"
     image_a: "http://placehold.it/450x300/000080&text=Placeholder"
