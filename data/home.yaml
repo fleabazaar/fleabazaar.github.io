@@ -13,7 +13,7 @@ slider:
     caption: "Energy Audit"
     color: "white"
   3:
-    image: "/images/main-3.jpg"
+    image: "/images/main3.jpg"
     caption: "Demand Response Management"
     color: "white"
 
