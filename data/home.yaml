@@ -22,7 +22,7 @@ highlights:
     name: "Meter Data Management"
     icon: "fa fa-check-circle"
     image: "/images/mdm.jpg"
-    detail: "Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies. An MDM solution serves as the connective tissue that binds all the disparate data collection points, interfaces, and systems together for the Smart Grid in order to create usable and accurate data that can be used for revenue and system planning purposes. <i class='fa fa-hand-o-right'></i> <a href='/solutions/meter-data-acquisition-1/-1/'>See more</a>"
+    detail: "Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies. An MDM solution serves as the connective tissue that binds all the disparate data collection points, interfaces, and systems together for the Smart Grid in order to create usable and accurate data that can be used for revenue and system planning purposes. <i class='fa fa-hand-o-right'></i> <a href='/solutions/meter-data-acquisition-1/'>See more</a>"
   2:
     name: "Smart Grid Analysis"
     icon: "fa fa-check-circle"
