@@ -12,10 +12,10 @@ breadcrumb:
   textcolor: "blue"
 
 footer:
-  background: "#aaa333"
-  textcolor: "red"
+  background: ""
+  textcolor: "#0069a7"
   seperator: "-"
-  seperator_color: "blue"
+  seperator_color: "#0069a7"
 
 navbar:
   icon_color: "#ABBB46"
