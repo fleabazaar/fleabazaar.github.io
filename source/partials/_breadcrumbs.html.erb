@@ -13,11 +13,11 @@
       <small><i class="<%= icon %>"></i></small>
       <% end %>
     </h1>
-    <ol class="breadcrumb">
-      <li><a href="/">Home</a></li>
-      <% if(btype == "services") %><li><a href="/services">Services</a></li><% end %>
-      <% if(btype == "solutions") %><li><a href="/solutions">Solutions</a></li><% end %>
-      <li class="active"><%= title %></li>
+    <ol class="breadcrumb" style="background-color:<%= data.site.breadcrumb.background %>;">
+      <li><a style="color:<%= data.site.breadcrumb.linkcolor %>;" href="/">Home</a></li>
+      <% if(btype == "services") %><li><a style="color:<%= data.site.breadcrumb.linkcolor %>;" href="/services">Services</a></li><% end %>
+      <% if(btype == "solutions") %><li><a style="color:<%= data.site.breadcrumb.linkcolor %>;" href="/solutions">Solutions</a></li><% end %>
+      <li style="color:<%= data.site.breadcrumb.textcolor %>;" class="active"><%= title %></li>
     </ol>
   </div>
 </div>

@@ -131,14 +131,6 @@ footer {
   }
 }
 
-.navbar-default {
-    background-color: #fff;
-    border-color: #e7e7e7;
-    font-size: 18px;
-    vertical-align: middle;
-    height: 75px;
-    padding: 10px 0;
-}
 
 .navbar-collapse {
     background-color: #fff;
@@ -160,3 +152,36 @@ footer {
 .text-yellow {
     color: #f1c40f;
 }
+
+.navbar-default
+{
+    background-color: #fff;
+    border-color: #e7e7e7;
+    font-size: 18px;
+    vertical-align: middle;
+    height: 75px;
+    padding: 10px 0;
+    color: red;
+}
+
+.navbar-default .navbar-brand {
+    color: red;
+}
+.navbar-default .navbar-nav > li > a {
+    color: red;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: green;
+}
+.navbar-default .navbar-nav > .active  {
+    color: green;
+    background: red;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: green;
+    background-color: red;
+}
+

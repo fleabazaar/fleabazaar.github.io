@@ -5,3 +5,18 @@ brand_text: Esyasoft
 
 copyright: "Esyasoft © 2014"
 credit: "Powered by <a target='_blank' href='http://www.crowlventures.com'>Crowl Ventures</a>"
+
+breadcrumb:
+  background: "#aaa333"
+  linkcolor: "red"
+  textcolor: "blue"
+
+footer:
+  background: "#aaa333"
+  textcolor: "red"  
+  seperator: "-"
+  seperator_color: "blue"
+
+navbar:
+  icon_color: "#ff00ff"
+  text_color: "00ff00"
