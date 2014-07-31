@@ -18,5 +18,5 @@ footer:
   seperator_color: "#0069a7"
 
 navbar:
-  icon_color: "#ABBB46"
-  text_color: "#0069A7"
+  icon_color: ""
+  text_color: ""
