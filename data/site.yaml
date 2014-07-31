@@ -7,9 +7,9 @@ copyright: "Esyasoft © 2014"
 credit: "Powered by <a target='_blank' href='http://www.crowlventures.com'>Crowl Ventures</a>"
 
 breadcrumb:
-  background: "#aaa333"
-  linkcolor: "red"
-  textcolor: "blue"
+  background: ""
+  linkcolor: ""
+  textcolor: ""
 
 footer:
   background: ""
