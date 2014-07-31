@@ -50,7 +50,7 @@ body {
 
 /* Half Page Height Carousel Customization */
 .carousel {
-  height: 50%;
+  height: 60%;
 }
 
 .item,
@@ -153,6 +153,18 @@ footer {
     color: #f1c40f;
 }
 
+.icon-color-green {
+    color: #abbb46;
+}
+
+.icon-color-blue {
+    color: #0069A7;
+}
+
+.fa-thumbs-up:hover {
+    color: #0069A7;
+}
+
 .navbar-default
 {
     background-color: #fff;
@@ -161,27 +173,28 @@ footer {
     vertical-align: middle;
     height: 75px;
     padding: 10px 0;
-    color: red;
+    color: #0069A7;
 }
 
 .navbar-default .navbar-brand {
-    color: red;
+    color: #0069A7;
 }
 .navbar-default .navbar-nav > li > a {
-    color: red;
+    color: #0069A7;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: green;
+    color: #abbb46;
 }
 .navbar-default .navbar-nav > .active  {
-    color: green;
-    background: red;
+    color: #abbb46;
 }
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-    color: green;
-    background-color: red;
+    color: #abbb46;
 }
 
+.fa-linkedin-square:hover, .fa-twitter-square:hover, .fa-google-plus-square:hover, .fa-facebook-square:hover,  .fa-envelope-square:hover {
+    color: #abbb46;
+}
