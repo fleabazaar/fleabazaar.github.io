@@ -1,6 +1,6 @@
 
 welcome: "Welcome to Esyasoft"
-welcome_color: "#ee3453"
+welcome_color: "#0069A7"
 
 text: "Esyasoft Technologies Private Limited is a core system development company, which has products and services catering specifically to the growing energy automation sector. With strong capabilities in Smart-Grid implementation, Energy Audit Automation and Energy Analytics, Esyasoft is poised to help the energy sector modernise their technology infrastructure. <i class='fa fa-hand-o-right'></i> <a href='/about'>See more</a>"
 
@@ -23,20 +23,20 @@ highlights:
     name: "Meter Data Management"
     icon: "fa fa-star"
     text_color: "#0069A7"
-    icon_color: #abbb46"
+    icon_color: "#ABBB46"
     image: "/images/mdm.jpg"
     detail: "Meter data management (MDM) refers to a key component in the Smart Grid infrastructure, which is in the process of being evolved and adopted by utility companies... <i class='fa fa-hand-o-right'></i> <a href='/solutions/meter-data-acquisition-1/'>See more</a>"
   2:
     name: "Smart Grid Analysis"
     icon: "fa fa-star"
     text_color: "#0069A7"
-    icon_color: "#abbb46"
+    icon_color: "#ABBB46"
     image: "/images/smart-grid-analytics-platform.jpg"
     detail: "Utilities today are inundated with large amounts of data with the introduction of smart meters and are keen to exploit the potential benefits.However, managing.... <i class='fa fa-hand-o-right'></i> <a href='/solutions/smart-grid-analytics-platform-2/'>See more</a>"
   3:
     name: "Energy Audit"
-    icon: "fa fa-spin fa-star"
-    text_color: "#fff333"
-    icon_color: #333fff"
+    icon: "fa fa-star"
+    text_color: "#0069A7"
+    icon_color: "#ABBB46"
     image: "/images/energy-audit-services.jpg"
     detail: "Esyasoft’s automated energy audit software (chubacabra) provides clients with unmatched reporting and benchmarking capability leading to efficiencies.... <i class='fa fa-hand-o-right'></i> <a href='/services/energy-audit-services-4'>See more</a>"
