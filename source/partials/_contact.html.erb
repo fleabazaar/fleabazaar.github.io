@@ -5,6 +5,11 @@
    phone = data.company.contact.phone
    email = data.company.contact.email
    gmap = data.company.contact.gmap
+
+   linkedin = data.company.contact.linkedin
+   twitter = data.company.contact.twitter
+   facebook = data.company.contact.facebook
+   gplus = data.company.contact.gplus
 %>
 
 <% if(data.company.contact.tagline != "nil") %>
@@ -27,7 +32,7 @@
     <p><i class="fa fa-phone"></i>&nbsp;<%= phone %></p>
     <p><i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:<%= email %>"><%= email %></a></p>
 
-    <%= partial "partials/social" %>	  
+    <%= partial "partials/social_individual",:locals =>{:linkedin=>linkedin,:twitter=>twitter,:facebook=>facebook,:gplus=>gplus,:email=>email} %>
     
   </div>
   
