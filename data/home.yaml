@@ -8,7 +8,7 @@ slider:
   1:
     image: "/images/main1.jpg"
     caption: "Smart Grid"
-    color: "white"
+    color: "#0069a7"
   2:
     image: "/images/main2.jpg"
     caption: "Energy Audit"
