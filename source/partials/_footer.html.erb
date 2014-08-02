@@ -1,52 +1,10 @@
 
-<%
-   linkedin = data.company.contact.linkedin
-   twitter = data.company.contact.twitter
-   facebook = data.company.contact.facebook
-   gplus = data.company.contact.gplus
-   email = data.company.contact.email
-
-   text_color = data.site.footer.textcolor
-   seperator = data.site.footer.seperator
-   seperator_color = data.site.footer.seperator_color
-%>
-
 <footer>
 
-  <div class="section-colored" style="background-color:<%= data.site.footer.background %>;">
-    <div class="container">
-      <div class="row>">
-
-	<div class="col-sm-12 col-md-8 text-left">
-	  <a style="color:<%= text_color %>" href="/">Home</a>
-	  &nbsp<span style="color:<%= seperator_color %>"><%= seperator %></span>&nbsp;
-	  <a style="color:<%= text_color %>" href="/solutions">Solutions</a>
-	  &nbsp<span style="color:<%= seperator_color %>"><%= seperator %></span>&nbsp;
-	  <a style="color:<%= text_color %>" href="/services">Services</a>
-	  &nbsp<span style="color:<%= seperator_color %>"><%= seperator %></span>&nbsp;
-	  <a style="color:<%= text_color %>" href="/career">Career</a>
-	  &nbsp<span style="color:<%= seperator_color %>"><%= seperator %></span>&nbsp;
-	  <a style="color:<%= text_color %>" href="/about">About</a>
-	  &nbsp<span style="color:<%= seperator_color %>"><%= seperator %></span>&nbsp;
-	  <a style="color:<%= text_color %>" href="/team">Team</a> 
-	  &nbsp<span style="color:<%= seperator_color %>"><%= seperator %></span>&nbsp;
-	  <a style="color:<%= text_color %>" href="/values">Values</a>
-	  &nbsp<span style="color:<%= seperator_color %>"><%= seperator %></span>&nbsp;
-	  <a style="color:<%= text_color %>" href="/contact">Contact</a>
-	</div>
-	
-	<div class="col-sm-12 col-md-4 text-right">
-	  <div class="row">
-	    <div class="col-md-12">
-      <%= partial "partials/social_individual",:locals =>{:linkedin=>linkedin,:twitter=>twitter,:facebook=>facebook,:gplus=>gplus,:email=>email} %>
-	    </div>
-	  </div>
-	  <div class="row"><div class="col-md-12"><%= data.site.copyright %></div></div>
-	  <div class="row"><div class="col-md-12"><small><%= data.site.credit %></small></div></div>
-	</div>
-	
-      </div>
-    </div>
-  </div>
 
 </footer>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="/javascripts/fleabazaar.js"></script>
+    

@@ -82,13 +82,4 @@ end
 activate :directory_indexes
 page "/404.html", :directory_index => false
 
-
-data.service.services.keys.each do |service_id|
-  proxy "/services/#{data.service.services[service_id].url_name}-#{service_id}.html", "/service_template.html", :locals => { :service_id => service_id }, :ignore => true
-end
-
-data.solution.solutions.keys.each do |solution_id|
-  proxy "/solutions/#{data.solution.solutions[solution_id].url_name}-#{solution_id}.html", "/solution_template.html", :locals => { :solution_id => solution_id }, :ignore => true
-end
-
-activate :sitemap, :hostname => "http://www.esyasoft.com"
+activate :sitemap, :hostname => "http://www.fleabazaar.com"

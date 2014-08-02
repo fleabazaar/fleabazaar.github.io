@@ -1,22 +1,8 @@
 
-title: "Esyasoft"
+title: "Fleabazaar"
 brand: "/images/logo.png"
-brand_text: Esyasoft
+brand_text: Flea Bazaar
 
-copyright: "Esyasoft © 2014"
+copyright: "Fleabazaar © 2014"
 credit: "Powered by <a target='_blank' href='http://www.crowlventures.com'>Crowl Ventures</a>"
 
-breadcrumb:
-  background: ""
-  linkcolor: ""
-  textcolor: ""
-
-footer:
-  background: ""
-  textcolor: "#0069a7"
-  seperator: "-"
-  seperator_color: "#0069a7"
-
-navbar:
-  icon_color: ""
-  text_color: ""

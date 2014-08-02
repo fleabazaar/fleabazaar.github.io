@@ -1,17 +1,5 @@
 
 <div class="container">
 
-  <%= partial "partials/breadcrumbs", 
-      :locals => { :title_main => data.company.title, :title => data.company.about.title, :icon => "fa fa-building" }  %>
-
-  <div class="row">
-    <div class="col-md-2">
-      <%= partial "partials/sidebar", :locals => {:active_tab => 'about'} %>
-    </div>
-    <div class="col-md-10">
-      <h2><i class="fa fa-institution"></i> <%= data.company.about.title %></h2>
-      <%= partial "partials/about" %>
-    </div>
-  </div>
   
 </div>
