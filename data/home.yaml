@@ -1,0 +1,11 @@
+
+main:
+  image: "http://placehold.it/900x450"
+  image_alt: "Flea Bazaar"
+  title: "Flea Bazzar/Market"
+  text: <p>define flea market</p>
+  button_text: "A-Z Flea Markets"
+  button_link: "/list"
+
+highlight:
+  text: "This is a well that is a great spot for a business tagline!"

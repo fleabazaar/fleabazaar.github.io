@@ -6,3 +6,19 @@ brand_text: Flea Bazaar
 copyright: "Fleabazaar © 2014"
 credit: "Powered by <a target='_blank' href='http://www.crowlventures.com'>Crowl Ventures</a>"
 
+navbar:
+  1: 
+    title: "Home"
+    icon: "fa fa-home"
+    icon_color: ""
+    url: "/"
+  2: 
+    title: "Markets"
+    icon: "fa fa-list-alt"
+    icon_color: ""
+    url: "/markets"
+  3: 
+    title: "About"
+    icon: "fa fa-building"
+    icon_color: ""
+    url: "/about"

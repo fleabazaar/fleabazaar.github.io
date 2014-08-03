@@ -1,23 +1,31 @@
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
   <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand"  href="/"><%= data.site.brand_text %></a>
+      <a class="navbar-brand" href="/"><%= data.site.brand_text %></a>
     </div>
 
-    
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
+	<% for element_id in data.site.navbar.keys %>
+	<%
+	   title = data.site.navbar[element_id].title
+	   icon = data.site.navbar[element_id].icon
+	   icon_color = data.site.navbar[element_id].icon_color
+	   url = data.site.navbar[element_id].url
+        %>
+        <li><a href="<%= url %>"><i style="color: <%= icon_color %>"class="<%= icon %>"></i>&nbsp;<%= title %></a></li>
+	<% end %>
       </ul>
     </div>
+    <!-- /.navbar-collapse -->
   </div>
+  <!-- /.container -->
 </nav>
