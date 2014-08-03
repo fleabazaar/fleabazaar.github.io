@@ -141,5 +141,9 @@ footer {
 }
 
 .carousel-control {
-    width: 50px;
+    width: 75px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
 }
