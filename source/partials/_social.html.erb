@@ -1,0 +1,44 @@
+
+<%
+   email = data.site.email
+   twitter = data.site.twitter
+   facebook = data.site.facebook
+   gplus = data.site.gplus
+%>
+
+
+<ul class="list-unstyled list-inline list-social-icons">
+
+  <% if(email != 'nil') %>
+  <li class="tooltip-social contact-link">
+    <a href="mailto:<%= email %>" data-toggle="tooltip" data-placement="top" title="Email">
+      <i class="fa fa-2x fa-envelope"></i>
+    </a>
+  </li>
+  <% end %>
+
+  <% if(twitter != 'nil') %>
+  <li class="tooltip-social twitter-link">
+    <a target="_blank" href="<%= twitter %>" data-toggle="tooltip" data-placement="top" title="Twitter">
+      <i class="fa fa-2x fa-twitter"></i>
+    </a>
+  </li>
+  <% end %>
+
+  <% if(facebook != 'nil') %>
+  <li class="tooltip-social facebook-link">
+    <a target="_blank" href="<%= facebook %>" data-toggle="tooltip" data-placement="top" title="Facebook">
+      <i class="fa fa-2x fa-facebook"></i>
+    </a>
+  </li>
+  <% end %>
+
+  <% if(gplus != 'nil') %>
+  <li class="tooltip-social google-plus-link">
+    <a target="_blank" href="<%= gplus %>" data-toggle="tooltip" data-placement="top" title="Google +">
+      <i class="fa fa-2x fa-google-plus"></i>
+    </a>
+  </li>
+  <% end %>
+
+</ul>

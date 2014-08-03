@@ -13,7 +13,7 @@ body {
 }
 
 footer {
-    padding: 30px 0;
+    padding: 25px 0 0 0;
 }
 
 
@@ -147,3 +147,33 @@ footer {
 .carousel-control.left, .carousel-control.right {
     background-image: none;
 }
+
+.section-colored {
+    padding: 25px 0 10px 0;
+    background-color: #850911;
+}
+
+.text-plain {
+    color: #fff;
+}
+
+/* social */
+.list-social-icons {
+}
+.tooltip-social a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact-link a:hover {
+  color: #007fb1;
+}
+.twitter-link a:hover {
+  color: #39a9e0;
+}
+.facebook-link a:hover {
+  color: #3b5998;
+}
+.google-plus-link a:hover {
+  color: #d14836;
+}
+/* social end */

@@ -1,6 +1,6 @@
 
 main:
-  title: "Flea Bazzar/Market"
+  title: "Flea Bazzar"
   text: <p>define flea market</p>
   button_text: "A-Z Flea bazaars"
   button_link: "/bazaars"
