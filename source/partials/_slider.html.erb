@@ -1,0 +1,38 @@
+
+<div id="carousel-home" class="carousel slide" data-ride="carousel">
+  
+  <% if(data.home.slider.keys.size > 1) %>
+  <ol class="carousel-indicators">
+    <% for slider_id in data.home.slider.keys %>
+    <% active_class = (slider_id == 1) ? 'active' : '' %>
+    <li data-target="#carousel-home" data-slide-to="<%= slider_id %>" class="<%= active_class %>"></li>
+    <% end %>
+  </ol>
+  <% end %>
+  
+  <div class="carousel-inner img-rounded">
+    <% for slider_id in data.home.slider.keys %>
+    <%
+       image = data.home.slider[slider_id].image
+       title = data.home.slider[slider_id].title
+       text = data.home.slider[slider_id].text
+       active_class = (slider_id == 1) ? 'active' : ''
+    %>
+    <div class="item <%= active_class %>">
+      <div style="background:url('<%= image %>') center center; background-size:cover;" class="slider-size">
+	<div class="carousel-caption"><h2><%= title %></h2><p><%= text %></p></div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+  
+  <% if(data.home.slider.keys.size > 1) %>
+  <a class="left carousel-control img-rounded" href="javascript:void(0);" data-slide="prev" data-target="#carousel-home">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control img-rounded" href="javascript:void(0);" data-slide="next" data-target="#carousel-home">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  <% end %>
+
+</div>

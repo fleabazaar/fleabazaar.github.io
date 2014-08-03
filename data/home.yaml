@@ -1,11 +1,23 @@
 
 main:
-  image: "http://placehold.it/900x450"
-  image_alt: "Flea Bazaar"
   title: "Flea Bazzar/Market"
   text: <p>define flea market</p>
-  button_text: "A-Z Flea Markets"
-  button_link: "/list"
+  button_text: "A-Z Flea bazaars"
+  button_link: "/bazaars"
 
+slider:
+  1:
+    image: "http://placehold.it/900x450"
+    title: "Goa"
+    text: "Monday - Saturday"
+  2:
+    image: "http://placehold.it/900x450"
+    title: "Bangalore"
+    text: "Monday - Saturday"
+  3:
+    image: "http://placehold.it/900x450"
+    title: "Delhi"
+    text: "Monday - Saturday"
+     
 highlight:
   text: "intent of the portal and/or tagline!"

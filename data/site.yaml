@@ -13,10 +13,10 @@ navbar:
     icon_color: ""
     url: "/"
   2: 
-    title: "Markets"
+    title: "Bazaars"
     icon: "fa fa-list-alt"
     icon_color: ""
-    url: "/markets"
+    url: "/bazaars"
   3: 
     title: "About"
     icon: "fa fa-building"
