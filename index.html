@@ -45,7 +45,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/"><i style="color: "class="fa fa-home"></i>&nbsp;Home</a></li>
-        <li><a href="/markets"><i style="color: "class="fa fa-list-alt"></i>&nbsp;Markets</a></li>
+        <li><a href="/bazaars"><i style="color: "class="fa fa-list-alt"></i>&nbsp;Bazaars</a></li>
         <li><a href="/about"><i style="color: "class="fa fa-building"></i>&nbsp;About</a></li>
       </ul>
     </div>
@@ -64,13 +64,48 @@
 <div class="row">
   
   <div class="col-md-7">
-    <img class="img-responsive img-rounded" src="http://placehold.it/900x450" alt="Flea Bazaar">
+    
+<div id="carousel-home" class="carousel slide" data-ride="carousel">
+  
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-home" data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-home" data-slide-to="2" class=""></li>
+    <li data-target="#carousel-home" data-slide-to="3" class=""></li>
+  </ol>
+  
+  <div class="carousel-inner img-rounded">
+    <div class="item active">
+      <div style="background:url('http://placehold.it/900x450') center center; background-size:cover;" class="slider-size">
+	<div class="carousel-caption"><h2>Goa</h2><p>Monday - Saturday</p></div>
+      </div>
+    </div>
+    <div class="item ">
+      <div style="background:url('http://placehold.it/900x450') center center; background-size:cover;" class="slider-size">
+	<div class="carousel-caption"><h2>Bangalore</h2><p>Monday - Saturday</p></div>
+      </div>
+    </div>
+    <div class="item ">
+      <div style="background:url('http://placehold.it/900x450') center center; background-size:cover;" class="slider-size">
+	<div class="carousel-caption"><h2>Delhi</h2><p>Monday - Saturday</p></div>
+      </div>
+    </div>
+  </div>
+  
+  <a class="left carousel-control img-rounded" href="javascript:void(0);" data-slide="prev" data-target="#carousel-home">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control img-rounded" href="javascript:void(0);" data-slide="next" data-target="#carousel-home">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+
   </div>
 
   <div class="col-md-5">
     <h1>Flea Bazzar/Market</h1>
     <p>define flea market</p>
-    <a class="btn btn-primary btn-md" href="/list">A-Z Flea Markets</a>
+    <a class="btn btn-primary btn-md" href="/bazaars">A-Z Flea bazaars</a>
   </div>
   
 </div>
