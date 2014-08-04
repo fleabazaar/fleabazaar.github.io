@@ -19,8 +19,6 @@ gem "middleman-deploy"
 
 gem "middleman-blog"
 
-gem 'middleman-minify-html'
-
 gem "middleman-disqus"
 
 gem "middleman-php"
@@ -29,3 +27,6 @@ gem "middleman-sitemap"
 
 gem "middleman-google-analytics"
 
+gem 'middleman-inliner'
+gem 'middleman-minify-html'
+gem 'middleman-imageoptim'
