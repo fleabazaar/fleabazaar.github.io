@@ -83,3 +83,7 @@ activate :directory_indexes
 page "/404.html", :directory_index => false
 
 activate :sitemap, :hostname => "http://www.fleabazaar.com"
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-53479171-1'
+end

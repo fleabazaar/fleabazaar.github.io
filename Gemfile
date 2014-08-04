@@ -26,3 +26,6 @@ gem "middleman-disqus"
 gem "middleman-php"
 
 gem "middleman-sitemap"
+
+gem "middleman-google-analytics"
+
