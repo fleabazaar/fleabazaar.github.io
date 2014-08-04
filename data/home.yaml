@@ -8,16 +8,16 @@ main:
 slider:
   1:
     image: "/images/sample-1.jpg"
-    title: ""
-    text: ""
+    title: "nil"
+    text: "nil"
   2:
     image: "/images/sample-2.jpg"
-    title: ""
-    text: ""
+    title: "nil"
+    text: "nil"
   3:
     image: "/images/sample-3.jpg"
-    title: ""
-    text: ""
+    title: "nil"
+    text: "nil"
      
 highlight:
   text: "Coming Soon!"
