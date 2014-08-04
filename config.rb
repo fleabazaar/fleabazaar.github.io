@@ -80,4 +80,4 @@ activate :google_analytics do |ga|
   ga.minify = true
 end
 
-activate :spellcheck
+# activate :spellcheck
