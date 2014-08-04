@@ -20,10 +20,9 @@
 	<%
 	   title = data.site.navbar[element_id].title
 	   icon = data.site.navbar[element_id].icon
-	   icon_color = data.site.navbar[element_id].icon_color
 	   url = data.site.navbar[element_id].url
         %>
-        <li><a href="<%= url %>"><i style="color: <%= icon_color %>"class="<%= icon %>"></i>&nbsp;<%= title %></a></li>
+        <li><a href="<%= url %>"><i class="<%= icon %>"></i>&nbsp;<%= title %></a></li>
 	<% end %>
       </ul>
     </div>

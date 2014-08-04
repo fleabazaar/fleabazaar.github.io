@@ -15,7 +15,6 @@ navbar:
   1: 
     title: "Home"
     icon: "fa fa-home"
-    icon_color: ""
     url: "/"
   2: 
     title: "Bazaars"
@@ -25,5 +24,4 @@ navbar:
   3: 
     title: "About"
     icon: "fa fa-building"
-    icon_color: ""
     url: "/about"
