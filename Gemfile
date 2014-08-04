@@ -30,3 +30,5 @@ gem "middleman-google-analytics"
 gem 'middleman-inliner'
 gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
+
+gem 'middleman-spellcheck'
