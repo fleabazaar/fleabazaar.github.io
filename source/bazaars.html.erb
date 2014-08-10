@@ -1,6 +1,29 @@
 
-<% @show_map = true %>
+<% @include_bootcard = true %>
 
 <div class="container">
-  <div id="map"></div>
+
+  <div class="row">
+    <div class="col-sm-12">
+    
+      <div class="panel panel-default bootcards-media">
+	<div class="panel-heading">
+	  <h1 class="panel-title">Search bazaars on the map</h1>
+	</div>
+	<div class="panel-body">
+	  <div class="row">
+	    <div class="col-sm-8"><%= partial "partials/search_map" %></div>
+	    <div class="col-sm-4"><%= partial "partials/bazaar_card_summary" %></div>
+	  </div>
+	</div>
+      </div>
+
+    </div>  
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12"><%= partial "partials/bazaar_list" %></div>
+  </div>
+
+
 </div>

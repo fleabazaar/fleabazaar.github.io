@@ -12,13 +12,18 @@
 
 <%= partial "partials/above_the_fold" %>
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="/stylesheets/fleabazaar.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/stylesheets/fleabazaar.css">
 
 <% if(@show_map == true) %>
-<link href="/stylesheets/d3_map.css" rel="stylesheet">
+<link rel="stylesheet" href="/stylesheets/d3_map.css">
 <% end %>
+
+<% if(@include_bootcard = true) %>
+<link rel="stylesheet" href="/stylesheets/bootcards-desktop.min.css">
+<% end %>
+
 <!-- IE8 support for HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
